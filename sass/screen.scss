@@ -1,0 +1,114 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "../assets/stylesheets/bootstrap";
+
+
+
+@font-face {
+  font-family: 'LinotypeUniversRegular';
+  src: url('../assets/fonts/LinotypeUniversRegular.ttf') format('truetype');
+  letter-spacing: 1.5px;
+}
+
+@font-face {
+  font-family: 'LinotypeUniversBold';
+  src: url('../assets/fonts/LinotypeUniversBold.ttf') format('truetype');
+  letter-spacing: 1.5px;
+  /*font-weight: 300;*/
+}
+
+@font-face {
+  font-family: 'LinotypeUniversHeavy';
+  src: url('../assets/fonts/LinotypeUniversHeavy.ttf') format('truetype');
+  letter-spacing: 1.5px;
+  /*font-weight: 700;*/
+}
+
+$fdp-dark-blue: #004E9C;
+$fdp-blue: #009EE3;
+$fdp-light-blue: #81D0F5;
+$fdp-cyan:  #009EE3;
+$fdp-gray: #b2b9c0;
+
+$white: #FFFFFF;
+$black: #000000;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: LinotypeUniversBold, sans-serif;
+}
+
+
+//mobile header
+@mixin mobile-header {
+  @media screen and (max-width: 1070px) {
+    height: 400px;
+  }
+
+  @media screen and (max-width: 890px) {
+    height: 300px;
+    margin: 0px;
+  }
+
+  @media screen and (max-width: 475px) {
+    height: 250px;
+  }
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.center-me {
+  margin: 0 auto;
+}
+
+.ta-center-me {
+  text-align: center;
+}
+
+.max-width {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.max-inner-width {
+  max-width: 1200px;
+}
+
+
+$bold-font: 'Roboto Condensed',sans-serif;;
+$light-font: 'Roboto', sans-serif;
+
+$breakpoint-desktop: 767px;
+
+$disable-outline: true;
+
+/***** NavBar *****/
+$nav-border: false;
+
+/***** Breadcrumbs *****/
+$breadcrumb-separator: "|";
+
+/***** Header Slider *****/
+$header-slider-navigation-size: 65px;
+$header-slider-navigation-font-size: 36px;
+
+/***** Input *****/
+$input-padding: 6px 5px 6px 15px;
+$input-margin: 0;
+$input-font: $light-font;
+$input-font-weight: 300;
+$radio-style: dot; // circle or dot
+$checkbox-style: check; //check or square
+
+@import "elements/layout";
+@import "elements/header";

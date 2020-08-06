@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FDP</title>
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+    <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css"/>
+    <!--[if IE]>
+    <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticons/flaticon.css">
+</head>
+<body>
+<nav id="w4" class="navbar navbar-default">
+    <div class="nav-container row">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w4-collapse"><span
+                    class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="/"><img class="header-logo"
+                                                  src="assets/images/logo-fdp.svg"
+                                                  alt="logo"></a></div>
+        <div id="w4-collapse" class="collapse navbar-collapse">
+            <div class="social-media-nav-desk">
+                <a href="https://twitter.com/FDP_Liberalen" target="_blank">
+                    <div class="circle">
+                        <i class="fi flaticon-twitter-black-shape"></i>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
+                    <div class="circle">
+                        <i class="fi flaticon-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/fdp_plr" target="_blank">
+                    <div class="circle">
+                        <i class="fi flaticon-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
+                    <div class="circle">
+                        <i class="fi flaticon-linkedin"></i>
+                    </div>
+                </a>
+            </div>
+            <ul id="w5" class="navbar-nav nav">
+                <li><a class="me-so-special active" href="/">Vorteile</a></li>
+                <li><a class="me-so-special" href="/">Funktionen</a></li>
+                <li><a class="me-so-special" href="/">Preise</a></li>
+                <li><a class="me-so-special" href="/">Kontakt</a></li>
+                <script>
+                    $(document).ready(function () {
+
+                        if (jQuery.browser.mobile) {
+                            $('.navbar-nav a.dropdown-toggle').each(function (ind, el) {
+                                let context = $(el);
+                                let masterUrl = context.attr('href');
+                                let masterName = context.text();
+                                let masterStyle = context.attr('style');
+
+                                let menuItemTemplate = '<li><a href="' + masterUrl + '" style="' + masterStyle + '" tabindex="-1">' + masterName + '</a></li>';
+
+                                context.siblings('ul.dropdown-menu').prepend(menuItemTemplate);
+                            });
+                        } else {
+                            $('body').on({
+                                mouseenter: function () {
+                                    let context = $(this);
+
+                                    context.addClass('open');
+                                    context.find('a.dropdown-toggle').attr('aria-expanded', 'true');
+                                },
+                                mouseleave: function () {
+                                    let context = $(this);
+
+                                    context.removeClass('open');
+                                    context.find('a.dropdown-toggle').attr('aria-expanded', 'false');
+                                },
+                                click: function (event) {
+                                    event.stopPropagation();
+                                }
+                            }, '.navbar-nav li.dropdown');
+                        }
+
+                    });
+                </script>
+                <div class="social-media-nav-mob">
+                    <a href="https://twitter.com/FDP_Liberalen" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-twitter-black-shape"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-facebook"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/fdp_plr" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-instagram"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-linkedin"></i>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+</nav>
+<div class="header-banner" style="background-image: url('assets/images/fdp_header.jpg')">
+    <a class="cta-btn" href="/unterstuetzen/">
+        <!--<div>Jetzt unterstützen</div>-->
+        <img class="mob-cta-btn" alt="Jetzt unterstützen!"
+             src="/uploads/assets/images/groups/fdp-v3/temp/fdp_stoerer_de.png">
+        <div id="grid" class="main">
+            <div class="view">
+                <div class="slice s1"
+                     style="background-image: url(/uploads/assets/images/groups/fdp-v3/temp/fdp_stoerer_de.png)">
+                    <span class="overlay"></span>
+                    <div class="slice s2"
+                         style="background-image: url(/uploads/assets/images/groups/fdp-v3/temp/fdp_stoerer_de.png)">
+                        <span class="overlay"></span>
+                        <div class="slice s3"
+                             style="background-image: url(/uploads/assets/images/groups/fdp-v3/temp/fdp_stoerer_de.png)">
+                            <span class="overlay"></span>
+                            <div class="slice s4"
+                                 style="background-image: url(/uploads/assets/images/groups/fdp-v3/temp/fdp_stoerer_de.png)">
+                                <span class="overlay"></span>
+                                <div class="slice s5"
+                                     style="background-image: url(/uploads/assets/images/groups/fdp-v3/temp/fdp_stoerer_de.png)">
+                                    <span class="overlay"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <div class="politician-name cyan">
+        <h1>
+            <span class="inner">
+               Abstimmungen und Wahlen <br>
+                gewinnen mit BERTA DIGITAL
+            </span>
+        </h1>
+    </div>
+</div>
+<div class="cheat-me-border">
+    <div class="claim light-blue">
+        <h2>
+            <span class="inner">«Erstellen Sie im<br>Handumdrehen Ihre eigene<br>Kampagnenwebseite»</span>
+            <!--<span class="wrap">
+            </span>-->
+        </h2>
+    </div>
+</div>
+<section id="votreile">
+    <h2>Alle Vorteile auf einem Blick</h2>
+    <p class="subtitle">Dies alles – und noch viel mehr steckt in BERTA DIGITAL.</p>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+.header-banner {
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  position: relative;
+
+}
+.politician-name,
+.banner-text {
+  font-family: LinotypeUniversBold, sans-serif;
+  position: absolute;
+  left: -24px;
+  background-color: #009EE3;
+  display: block;
+  -ms-transform: rotate(-3.5deg);
+  -webkit-transform: rotate(-3.5deg);
+  transform: rotate(-3.5deg);
+  -ms-transform-origin: 0%;
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  bottom: -2px;
+
+  h1 {
+    color: #FFFFFF;
+    display: block;
+    font-size: 5.071rem;
+    margin: 0;
+    line-height: 1;
+    padding: 15px 15px 0 45px;
+  }
+}
+
+.cheat-me-border {
+  position: relative;
+  -ms-transform: rotate(-3.5deg);
+  -webkit-transform: rotate(-3.5deg);
+  transform: rotate(-3.5deg);
+  background-color: white;
+  width: 105%;
+  -ms-transform-origin: 0%;
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  padding-bottom: 150px;
+  left: -5px;
+
+  .claim {
+    position: relative;
+    display: block;
+    max-width: 60%;
+    width: 100%;
+
+    &.light-blue {
+      .inner {
+        position: relative;
+      }
+    }
+
+    h2 {
+      background-color: #81D0F5;
+      font-family: LinotypeUniversBold, sans-serif;
+      font-size: 5.571rem;
+      line-height: 7.1rem;
+      display: inline-block;
+      padding: 10px 0 0 0;
+      padding-left: 38px;
+      padding-right: 20px;
+      margin-top: 0;
+    }
+  }
+}
+

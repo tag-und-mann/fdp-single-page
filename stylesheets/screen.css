@@ -8863,28 +8863,33 @@ h6 {
   font-family: LinotypeUniversBold, sans-serif;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
+h2 {
+  font-size: 36px;
+}
+
+/* line 70, ../sass/screen.scss */
 a:hover {
   cursor: pointer;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .center-me {
   margin: 0 auto;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .ta-center-me {
   text-align: center;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .max-width {
   max-width: 1440px;
   width: 100%;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .max-inner-width {
   max-width: 1200px;
 }
@@ -8909,26 +8914,33 @@ a:hover {
   border: none !important;
 }
 
+/* line 17, ../sass/elements/_layout.scss */
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 1120px;
+}
+
 @media (min-width: 769px) {
-  /* line 20, ../sass/elements/_layout.scss */
+  /* line 26, ../sass/elements/_layout.scss */
   .navbar-collapse.collapse {
     display: block !important;
   }
 }
 @media (width: 768px) {
-  /* line 26, ../sass/elements/_layout.scss */
+  /* line 32, ../sass/elements/_layout.scss */
   .navbar-collapse.collapse {
     display: none !important;
   }
 }
 @media (min-width: 768px) {
-  /* line 31, ../sass/elements/_layout.scss */
+  /* line 37, ../sass/elements/_layout.scss */
   .navbar-collapse.collapse.in {
     display: block !important;
   }
 }
 
-/* line 37, ../sass/elements/_layout.scss */
+/* line 43, ../sass/elements/_layout.scss */
 .navbar-default {
   top: 0;
   position: absolute;
@@ -8946,20 +8958,20 @@ a:hover {
        padding-top: 0;
    }*/
 }
-/* line 55, ../sass/elements/_layout.scss */
+/* line 61, ../sass/elements/_layout.scss */
 .navbar-default .navbar-nav {
   float: right;
 }
-/* line 59, ../sass/elements/_layout.scss */
+/* line 65, ../sass/elements/_layout.scss */
 .navbar-default .navbar-nav li a {
   color: #000000;
 }
-/* line 62, ../sass/elements/_layout.scss */
+/* line 68, ../sass/elements/_layout.scss */
 .navbar-default .navbar-nav li a.active {
   color: #009EE3;
 }
 
-/* line 70, ../sass/elements/_layout.scss */
+/* line 76, ../sass/elements/_layout.scss */
 .navbar-header {
   float: inherit;
   display: inline-block;
@@ -8970,24 +8982,24 @@ a:hover {
   }*/
 }
 @media screen and (max-width: 1175px) {
-  /* line 70, ../sass/elements/_layout.scss */
+  /* line 76, ../sass/elements/_layout.scss */
   .navbar-header {
     margin-left: 22px;
   }
 }
-/* line 84, ../sass/elements/_layout.scss */
+/* line 90, ../sass/elements/_layout.scss */
 .navbar-header .header-logo {
   max-height: 210px;
   max-width: 230px;
 }
 
-/* line 90, ../sass/elements/_layout.scss */
+/* line 96, ../sass/elements/_layout.scss */
 .nav-container {
   max-width: 1120px;
   margin: 0 auto;
   position: relative;
 }
-/* line 95, ../sass/elements/_layout.scss */
+/* line 101, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-desk, .nav-container .social-media-nav-mob {
   position: absolute;
   z-index: 9;
@@ -8997,7 +9009,7 @@ a:hover {
       display: none;
   }*/
 }
-/* line 101, ../sass/elements/_layout.scss */
+/* line 107, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-desk .circle, .nav-container .social-media-nav-mob .circle {
   display: inline-block;
   border-radius: 50%;
@@ -9007,32 +9019,32 @@ a:hover {
   margin-right: 5px;
   position: relative;
 }
-/* line 111, ../sass/elements/_layout.scss */
+/* line 117, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-desk .fi, .nav-container .social-media-nav-mob .fi {
   position: absolute;
   top: 8px;
   right: 8px;
   color: #000000;
 }
-/* line 118, ../sass/elements/_layout.scss */
+/* line 124, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-desk a:hover, .nav-container .social-media-nav-mob a:hover {
   cursor: pointer;
 }
-/* line 121, ../sass/elements/_layout.scss */
+/* line 127, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-desk a:hover .circle, .nav-container .social-media-nav-mob a:hover .circle {
   color: #009EE3 !important;
 }
-/* line 125, ../sass/elements/_layout.scss */
+/* line 131, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-desk a:hover .fi, .nav-container .social-media-nav-mob a:hover .fi {
   color: #009EE3;
 }
 @media screen and (max-width: 768px) {
-  /* line 95, ../sass/elements/_layout.scss */
+  /* line 101, ../sass/elements/_layout.scss */
   .nav-container .social-media-nav-desk, .nav-container .social-media-nav-mob {
     display: none;
   }
 }
-/* line 138, ../sass/elements/_layout.scss */
+/* line 144, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-mob {
   display: none;
   position: relative;
@@ -9040,29 +9052,29 @@ a:hover {
   right: inherit;
   margin: 50px 0 20px;
 }
-/* line 146, ../sass/elements/_layout.scss */
+/* line 152, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-mob .circle {
   margin: 0 9px;
   padding: 21px;
 }
-/* line 151, ../sass/elements/_layout.scss */
+/* line 157, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-mob .fi {
   top: 8px;
   right: 8px;
   font-size: 25px;
 }
-/* line 157, ../sass/elements/_layout.scss */
+/* line 163, ../sass/elements/_layout.scss */
 .nav-container .social-media-nav-mob .circle, .nav-container .social-media-nav-mob a {
   border-color: #009EE3;
   color: #009EE3;
 }
 @media screen and (max-width: 768px) {
-  /* line 138, ../sass/elements/_layout.scss */
+  /* line 144, ../sass/elements/_layout.scss */
   .nav-container .social-media-nav-mob {
     display: block;
   }
 }
-/* line 169, ../sass/elements/_layout.scss */
+/* line 175, ../sass/elements/_layout.scss */
 .nav-container .navbar-collapse {
   position: absolute;
   right: 0;
@@ -9074,7 +9086,7 @@ a:hover {
   padding: 25px 0 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 169, ../sass/elements/_layout.scss */
+  /* line 175, ../sass/elements/_layout.scss */
   .nav-container .navbar-collapse {
     width: 100%;
     top: 0;
@@ -9082,75 +9094,75 @@ a:hover {
   }
 }
 
-/* line 188, ../sass/elements/_layout.scss */
+/* line 194, ../sass/elements/_layout.scss */
 .nav-container.default li a {
   color: #000000;
   border: none;
 }
 
-/* line 194, ../sass/elements/_layout.scss */
+/* line 200, ../sass/elements/_layout.scss */
 .dropdown-menu {
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
-/* line 200, ../sass/elements/_layout.scss */
+/* line 206, ../sass/elements/_layout.scss */
 .dropdown-menu .active a {
   background-color: transparent;
 }
-/* line 202, ../sass/elements/_layout.scss */
+/* line 208, ../sass/elements/_layout.scss */
 .dropdown-menu .active a:hover {
   color: #009EE3 !important;
   background-color: transparent;
 }
 
-/* line 211, ../sass/elements/_layout.scss */
+/* line 217, ../sass/elements/_layout.scss */
 .nav-container.default li.active a {
   color: #009EE3;
   border-color: #000000;
   border: none;
 }
 
-/* line 220, ../sass/elements/_layout.scss */
+/* line 226, ../sass/elements/_layout.scss */
 .gallery-element .slick-arrow {
   border-radius: 50%;
   border: 1px solid #b2b9c0;
   height: 60px;
   width: 60px;
 }
-/* line 227, ../sass/elements/_layout.scss */
+/* line 233, ../sass/elements/_layout.scss */
 .gallery-element .prev {
   left: -70px !important;
   padding-left: 12px;
   padding-top: 9px;
 }
-/* line 232, ../sass/elements/_layout.scss */
+/* line 238, ../sass/elements/_layout.scss */
 .gallery-element .next {
   right: -70px !important;
   padding-left: 16px;
   padding-top: 9px;
 }
-/* line 239, ../sass/elements/_layout.scss */
+/* line 245, ../sass/elements/_layout.scss */
 .gallery-element .prev .next:before {
   color: #b2b9c0 !important;
 }
 
-/* line 246, ../sass/elements/_layout.scss */
+/* line 252, ../sass/elements/_layout.scss */
 .nav-container.default li {
   color: #000000;
 }
 
-/* line 251, ../sass/elements/_layout.scss */
+/* line 257, ../sass/elements/_layout.scss */
 .max-inner-width {
   max-width: 1120px;
 }
 
-/* line 255, ../sass/elements/_layout.scss */
+/* line 261, ../sass/elements/_layout.scss */
 .left-me {
   text-align: left;
 }
 
-/* line 260, ../sass/elements/_layout.scss */
+/* line 266, ../sass/elements/_layout.scss */
 .right-me {
   float: right;
 }
@@ -9163,8 +9175,26 @@ a:hover {
   background-position: 50% 40%;
   position: relative;
 }
-
 /* line 9, ../sass/elements/_header.scss */
+.header-banner .cta-btn {
+  position: absolute;
+  top: 55%;
+  font-size: 3.429rem;
+}
+/* line 14, ../sass/elements/_header.scss */
+.header-banner .cta-btn .mob-cta-btn {
+  display: none;
+}
+@media (max-width: 580px) {
+  /* line 14, ../sass/elements/_header.scss */
+  .header-banner .cta-btn .mob-cta-btn {
+    display: block;
+    width: 120px;
+    margin-top: 40px;
+  }
+}
+
+/* line 26, ../sass/elements/_header.scss */
 .politician-name,
 .banner-text {
   font-family: LinotypeUniversBold, sans-serif;
@@ -9180,7 +9210,7 @@ a:hover {
   transform-origin: 0%;
   bottom: -2px;
 }
-/* line 24, ../sass/elements/_header.scss */
+/* line 41, ../sass/elements/_header.scss */
 .politician-name h1,
 .banner-text h1 {
   color: #FFFFFF;
@@ -9191,7 +9221,7 @@ a:hover {
   padding: 15px 15px 0 45px;
 }
 
-/* line 34, ../sass/elements/_header.scss */
+/* line 51, ../sass/elements/_header.scss */
 .cheat-me-border {
   position: relative;
   -ms-transform: rotate(-3.5deg);
@@ -9205,18 +9235,18 @@ a:hover {
   padding-bottom: 150px;
   left: -5px;
 }
-/* line 47, ../sass/elements/_header.scss */
+/* line 64, ../sass/elements/_header.scss */
 .cheat-me-border .claim {
   position: relative;
   display: block;
   max-width: 60%;
   width: 100%;
 }
-/* line 54, ../sass/elements/_header.scss */
+/* line 71, ../sass/elements/_header.scss */
 .cheat-me-border .claim.light-blue .inner {
   position: relative;
 }
-/* line 59, ../sass/elements/_header.scss */
+/* line 76, ../sass/elements/_header.scss */
 .cheat-me-border .claim h2 {
   background-color: #81D0F5;
   font-family: LinotypeUniversBold, sans-serif;
@@ -9227,4 +9257,352 @@ a:hover {
   padding-left: 38px;
   padding-right: 20px;
   margin-top: 0;
+}
+
+/* line 1, ../sass/elements/_rollut.scss */
+.view {
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+  /*transform: rotate(-3.5deg);*/
+}
+@media (max-width: 580px) {
+  /* line 1, ../sass/elements/_rollut.scss */
+  .view {
+    display: none;
+  }
+}
+
+/* line 15, ../sass/elements/_rollut.scss */
+.view:hover .s1, .view .s1.start {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  -ms-transition-delay: 200ms;
+  transition-delay: 200ms;
+  -webkit-transform: rotate3d(0, 1, 0, -10deg);
+  -moz-transform: rotate3d(0, 1, 0, -10deg);
+  -o-transform: rotate3d(0, 1, 0, -10deg);
+  -ms-transform: rotate3d(0, 1, 0, -10deg);
+  transform: rotate3d(0, 1, 0, -10deg);
+}
+
+/* line 29, ../sass/elements/_rollut.scss */
+.view:hover .s2, .view .s2.start {
+  -webkit-transition-delay: 150ms;
+  -moz-transition-delay: 150ms;
+  -o-transition-delay: 150ms;
+  -ms-transition-delay: 150ms;
+  transition-delay: 150ms;
+  -webkit-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+  -moz-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+  -o-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+  -ms-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+  transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+}
+
+/* line 43, ../sass/elements/_rollut.scss */
+.view:hover .s3, .view .s3.start {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  -o-transition-delay: 100ms;
+  -ms-transition-delay: 100ms;
+  transition-delay: 100ms;
+  -webkit-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+  -moz-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+  -o-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+  -ms-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+  transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+}
+
+/* line 57, ../sass/elements/_rollut.scss */
+.view:hover .s4, .view .s4.start {
+  -webkit-transition-delay: 50ms;
+  -moz-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  -ms-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+  -moz-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+  -o-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+  -ms-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+  transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+}
+
+/* line 71, ../sass/elements/_rollut.scss */
+.view:hover .s5, .view .s5.start {
+  -webkit-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -moz-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -o-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -ms-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+}
+
+/* line 79, ../sass/elements/_rollut.scss */
+.view:hover .s6, .view .s6 .start {
+  -webkit-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -52deg);
+  -moz-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -52deg);
+  -o-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -52deg);
+  -ms-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -52deg);
+  transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -52deg);
+}
+
+/* line 87, ../sass/elements/_rollut.scss */
+.view:hover .s7, .view .s7 .start {
+  -webkit-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -moz-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -o-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -ms-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+}
+
+/* line 95, ../sass/elements/_rollut.scss */
+.view:hover .s8, .view .s8 .start {
+  -webkit-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -moz-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -o-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  -ms-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+  transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+}
+
+/* line 103, ../sass/elements/_rollut.scss */
+.view .s4 > .overlay {
+  background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -o-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -ms-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+}
+
+/* line 111, ../sass/elements/_rollut.scss */
+.view .s5 > .overlay {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+}
+
+/* line 119, ../sass/elements/_rollut.scss */
+.view .s6 > .overlay {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+}
+
+/* line 127, ../sass/elements/_rollut.scss */
+.view .s7 > .overlay {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+}
+
+/* line 135, ../sass/elements/_rollut.scss */
+.view .s8 > .overlay {
+  background: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -o-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+}
+
+/* line 143, ../sass/elements/_rollut.scss */
+.view div.view-back {
+  background: #0a0a0a;
+  background: -moz-linear-gradient(left, #0a0a0a 0%, #666666 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #0a0a0a), color-stop(100%, #666666));
+  background: -webkit-linear-gradient(left, #0a0a0a 0%, #666666 100%);
+  background: -o-linear-gradient(left, #0a0a0a 0%, #666666 100%);
+  background: -ms-linear-gradient(left, #0a0a0a 0%, #666666 100%);
+  background: linear-gradient(left, #0a0a0a 0%, #666666 100%);
+}
+
+/* line 153, ../sass/elements/_rollut.scss */
+.view {
+  /*width: 316px;*/
+  /*width: 305px;*/
+  width: 105px;
+  /*height: 200px;*/
+  height: 115px;
+  float: left;
+  position: relative;
+  perspective: 500px;
+}
+
+/* line 164, ../sass/elements/_rollut.scss */
+.view .slice {
+  width: 62px;
+  height: 100%;
+  z-index: 100;
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  transition: transform 150ms ease-in-out;
+}
+
+/* line 173, ../sass/elements/_rollut.scss */
+.view div.view-back {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  /*background: #666;*/
+  z-index: 0;
+}
+
+/* line 182, ../sass/elements/_rollut.scss */
+.view-back span {
+  display: block;
+  float: right;
+  padding: 5px 20px 5px;
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 192, ../sass/elements/_rollut.scss */
+.view-back span:first-child {
+  padding-top: 20px;
+}
+
+/* line 196, ../sass/elements/_rollut.scss */
+.view-back a {
+  display: block;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* line 212, ../sass/elements/_rollut.scss */
+.view-back a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* line 217, ../sass/elements/_rollut.scss */
+.view-back span[data-icon]:before {
+  content: attr(data-icon);
+  font-family: 'icons';
+  color: #aaa;
+  color: rgba(255, 255, 255, 0.2);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+  padding-right: 5px;
+}
+
+/* line 226, ../sass/elements/_rollut.scss */
+.view .s2,
+.view .s3,
+.view .s4,
+.view .s5,
+.view .s6,
+.view .s7,
+.view .s8 {
+  transform: translateX(60px);
+}
+
+/* line 236, ../sass/elements/_rollut.scss */
+.view .s1 {
+  background-position: 0px 0px;
+}
+
+/* line 239, ../sass/elements/_rollut.scss */
+.view .s2 {
+  background-position: -60px 0px;
+}
+
+/* line 242, ../sass/elements/_rollut.scss */
+.view .s3 {
+  background-position: -120px 0px;
+}
+
+/* line 245, ../sass/elements/_rollut.scss */
+.view .s4 {
+  background-position: -180px 0px;
+}
+
+/* line 248, ../sass/elements/_rollut.scss */
+.view .s5 {
+  background-position: -240px 0px;
+}
+
+/* line 251, ../sass/elements/_rollut.scss */
+.view .s6 {
+  background-position: -300px 0px;
+}
+
+/* line 254, ../sass/elements/_rollut.scss */
+.view .s7 {
+  background-position: -360px 0px;
+}
+
+/* line 257, ../sass/elements/_rollut.scss */
+.view .s8 {
+  background-position: -420px 0px;
+}
+
+/* line 261, ../sass/elements/_rollut.scss */
+.view .overlay {
+  width: 60px;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 150ms ease-in-out;
+}
+
+/* line 269, ../sass/elements/_rollut.scss */
+.view:hover .overlay {
+  opacity: 1;
+}
+
+/* line 274, ../sass/elements/_rollut.scss */
+.view img {
+  width: 305px;
+}
+
+/* line 279, ../sass/elements/_rollut.scss */
+.view img {
+  position: absolute;
+  width: 305px;
+  z-index: 0;
+  transition: left 0.3s ease-in-out;
+}
+
+/* line 286, ../sass/elements/_rollut.scss */
+.view:hover img {
+  left: -85px;
+}
+
+/* line 290, ../sass/elements/_rollut.scss */
+.view div.view-back {
+  background: #666;
+}
+
+/* line 2, ../sass/elements/_advantages.scss */
+.advantages h2 {
+  color: #009EE3;
+  margin-top: 0;
+}
+/* line 8, ../sass/elements/_advantages.scss */
+.advantages p.subtitle {
+  font-family: LinotypeUniversBold, sans-serif;
+  font-size: 24px;
+}
+/* line 14, ../sass/elements/_advantages.scss */
+.advantages img {
+  width: 120px;
 }

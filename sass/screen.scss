@@ -46,6 +46,10 @@ h6 {
   font-family: LinotypeUniversBold, sans-serif;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 
 //mobile header
 @mixin mobile-header {
@@ -112,3 +116,5 @@ $checkbox-style: check; //check or square
 
 @import "elements/layout";
 @import "elements/header";
+@import "elements/rollut";
+@import "elements/advantages";

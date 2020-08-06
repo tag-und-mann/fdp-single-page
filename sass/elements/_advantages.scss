@@ -1,0 +1,17 @@
+.advantages {
+  h2 {
+    color: $fdp-blue;
+    margin-top: 0;
+  }
+
+  p {
+    &.subtitle {
+      font-family: LinotypeUniversBold, sans-serif;
+      font-size: 24px;
+    }
+  }
+
+  img {
+    width: 120px;
+  }
+}

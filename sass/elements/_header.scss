@@ -5,7 +5,24 @@
   background-position: 50% 40%;
   position: relative;
 
+
+  .cta-btn {
+    position: absolute;
+    top: 55%;
+    font-size: 3.429rem;
+
+    .mob-cta-btn {
+      display: none;
+
+      @media (max-width: 580px) {
+        display: block;
+        width: 120px;
+        margin-top: 40px;
+      }
+    }
+  }
 }
+
 .politician-name,
 .banner-text {
   font-family: LinotypeUniversBold, sans-serif;

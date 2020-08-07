@@ -9996,7 +9996,7 @@ footer .desk-view {
 /* line 100, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item {
   border-bottom: 1px solid grey;
-  opacity: 0;
+  opacity: 1;
   transition: all 1s ease-in-out;
 }
 /* line 105, ../sass/elements/_computer-slider.scss */

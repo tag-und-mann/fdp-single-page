@@ -192,14 +192,8 @@
         <h2>Für Politiker</h2>
         <p class="subtitle">Wählen Sie Ihre Inwididuelle parteivorlage aus und im Handumdrehen sind Sie online.</p>
         <div class="row">
-
-            <h1>Compi slider</h1>
             <div class="features-and-website-slider-block">
-
-
                 <div class="features-and-website-table-items features-and-website-table-items-desk">
-
-
                     <div class="features-and-website-table-item" data-number="1">
                         <p class="features-and-website-table-title">Individuelle Vorlagen</p>
                         <p class="features-and-website-table-desc">Nutzen Sie die Vorlage im Corporate Design Ihrer
@@ -223,12 +217,34 @@
                     <!--ScrollMagic-->
                     <script>
                         new ScrollMagic.Scene({
-                            triggerElement: ".features-and-website-table-item[data-number='<?php echo $block; ?><?php echo $k; ?>']",
+                            triggerElement: ".features-and-website-table-item[data-number='1']",
                             triggerHook: 0.9,
                             offset: 0
                         })
-                            .setClassToggle(".features-and-website-table-item[data-number='<?php echo $block; ?><?php echo $k; ?>']", "visibleTextEl")
+                            .setClassToggle(".features-and-website-table-item[data-number='1']", "visibleTextEl")
                             .addTo(controller);
+                        new ScrollMagic.Scene({
+                            triggerElement: ".features-and-website-table-item[data-number='2']",
+                            triggerHook: 0.9,
+                            offset: 0
+                        })
+                            .setClassToggle(".features-and-website-table-item[data-number='2']", "visibleTextEl")
+                            .addTo(controller);
+                        new ScrollMagic.Scene({
+                            triggerElement: ".features-and-website-table-item[data-number='3']",
+                            triggerHook: 0.9,
+                            offset: 0
+                        })
+                            .setClassToggle(".features-and-website-table-item[data-number='3']", "visibleTextEl")
+                            .addTo(controller);
+                        new ScrollMagic.Scene({
+                            triggerElement: ".features-and-website-table-item[data-number='4']",
+                            triggerHook: 0.9,
+                            offset: 0
+                        })
+                            .setClassToggle(".features-and-website-table-item[data-number='4']", "visibleTextEl")
+                            .addTo(controller);
+
                     </script>
                 </div>
 

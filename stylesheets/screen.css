@@ -9262,21 +9262,20 @@ body {
   -ms-transform-origin: 0%;
   -webkit-transform-origin: 0%;
   transform-origin: 0%;
-  padding-bottom: 150px;
   left: -5px;
 }
-/* line 64, ../sass/elements/_header.scss */
+/* line 63, ../sass/elements/_header.scss */
 .cheat-me-border .claim {
   position: relative;
   display: block;
   max-width: 60%;
   width: 100%;
 }
-/* line 71, ../sass/elements/_header.scss */
+/* line 70, ../sass/elements/_header.scss */
 .cheat-me-border .claim.light-blue .inner {
   position: relative;
 }
-/* line 76, ../sass/elements/_header.scss */
+/* line 75, ../sass/elements/_header.scss */
 .cheat-me-border .claim h2 {
   background-color: #81D0F5;
   font-family: LinotypeUniversBold, sans-serif;
@@ -9625,18 +9624,22 @@ body {
   background: #666;
 }
 
-/* line 3, ../sass/elements/_advantages.scss */
+/* line 1, ../sass/elements/_advantages.scss */
+.advantages {
+  padding-top: 150px;
+}
+/* line 4, ../sass/elements/_advantages.scss */
 .advantages h2 {
   color: #009EE3;
   margin-top: 0;
 }
-/* line 9, ../sass/elements/_advantages.scss */
+/* line 10, ../sass/elements/_advantages.scss */
 .advantages p.subtitle {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 24px;
   width: 60%;
 }
-/* line 16, ../sass/elements/_advantages.scss */
+/* line 17, ../sass/elements/_advantages.scss */
 .advantages img {
   width: 120px;
 }
@@ -9915,7 +9918,7 @@ footer .desk-view {
 
 /* line 1, ../sass/elements/_computer-slider.scss */
 .computer-slider {
-  margin-top: 150px;
+  padding-top: 150px;
 }
 /* line 4, ../sass/elements/_computer-slider.scss */
 .computer-slider h2 {
@@ -10967,7 +10970,7 @@ footer .desk-view {
 
 /* line 1, ../sass/elements/_contact.scss */
 .contact-form {
-  margin: 150px 0;
+  padding: 150px 0;
 }
 /* line 4, ../sass/elements/_contact.scss */
 .contact-form h2 {
@@ -11017,4 +11020,66 @@ footer .desk-view {
   border: 0;
   float: right;
   margin-top: 20px;
+}
+
+/* line 1, ../sass/elements/_testimonial.scss */
+.testimonial {
+  padding-top: 150px;
+}
+/* line 4, ../sass/elements/_testimonial.scss */
+.testimonial .simple-slick {
+  width: 78%;
+  border: 1px solid #b2b9c0;
+  margin: 0 auto;
+  height: 360px;
+}
+/* line 10, ../sass/elements/_testimonial.scss */
+.testimonial .simple-slick .testi-content {
+  font-family: LinotypeUniversBold, sans-serif;
+  position: relative;
+  left: -15px;
+  width: 80%;
+  -ms-transform: rotate(-3.5deg);
+  -webkit-transform: rotate(-3.5deg);
+  transform: rotate(-3.5deg);
+  -ms-transform-origin: 0%;
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  margin-top: 20px;
+}
+/* line 23, ../sass/elements/_testimonial.scss */
+.testimonial .simple-slick .testi-content h3 {
+  background-color: #81D0F5;
+  padding: 15px 15px 15px 45px;
+  padding-left: 45px;
+  font-size: 38px;
+  line-height: 38px;
+  color: #131413;
+  margin: 0;
+}
+/* line 32, ../sass/elements/_testimonial.scss */
+.testimonial .simple-slick .testi-content h3 .inner {
+  position: relative;
+}
+/* line 37, ../sass/elements/_testimonial.scss */
+.testimonial .simple-slick .testi-content .cite {
+  position: relative;
+  left: -19px;
+  -ms-transform: rotate(-3.5deg);
+  -webkit-transform: rotate(-3.5deg);
+  transform: rotate(-3.5deg);
+  -ms-transform-origin: 0%;
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  margin-bottom: 20px;
+}
+/* line 48, ../sass/elements/_testimonial.scss */
+.testimonial .simple-slick .testi-content .cite h4 {
+  color: #FFFFFF;
+  background-color: #009EE3;
+  font-size: 22px;
+  line-height: 33px;
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px 5px 55px;
 }

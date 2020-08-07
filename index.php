@@ -326,59 +326,60 @@
     </div>
 </section>
 <section class="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="simple-slick">
-                <div>
-                    <div class="col-md-8">
-                        <div class="quote-position">
-                            <div class="testi-content light-blue">
-                                <h3><span class="inner">Ornare pellentesque scelerisque hendrerit pellentesque nunc et suspendisse congue imperdiet pellentesque mi consectetur.</span>
-                                </h3>
-                            </div>
-                            <div class="cite cyan">
-                                <h4>
-                                    <span class="inner">Marco Roth<br>Hausrat, Ringier AG</span>
-                                </h4>
-                            </div>
+    <div class="row">
+        <div class="simple-slick">
+            <div>
+                <div class="col-md-8">
+                    <div class="quote-position">
+                        <div class="testi-content light-blue">
+                            <h3><span class="inner">Ornare pellentesque scelerisque hendrerit pellentesque nunc et.</span>
+                            </h3>
+                        </div>
+                        <div class="cite cyan">
+                            <h4>
+                                <span class="inner">Marco Roth<br>Hausrat, Ringier AG</span>
+                            </h4>
                         </div>
                     </div>
-                    <div class="col-md-4 testi-img" style="background-image: url('assets/images/person.png')"></div>
                 </div>
+                <div class="col-md-4 testi-img"
+                     style="background-image: url('assets/images/fdp_portrait_bild.jpg'); background-size:cover; height: 358px; z-index: 99;"></div>
+            </div>
 
-                <div>
-                    <div class="col-md-8">
-                        <div class="quote-position">
-                            <div class="testi-content light-blue">
-                                <h3><span class="inner">Ornare pellentesque scelerisque hendrerit pellentesque nunc et suspendisse congue imperdiet pellentesque mi consectetur.</span>
-                                </h3>
-                            </div>
-                            <div class="cite cyan">
-                                <h4>
-                                    <span class="inner">Marco Roth<br>Hausrat, Ringier AG</span>
-                                </h4>
-                            </div>
+            <div>
+                <div class="col-md-8">
+                    <div class="quote-position">
+                        <div class="testi-content light-blue">
+                            <h3><span class="inner">Ornare pellentesque scelerisque hendrerit pellentesque nunc et suspendisse congue imperdiet pellentesque mi consectetur.</span>
+                            </h3>
+                        </div>
+                        <div class="cite cyan">
+                            <h4>
+                                <span class="inner">Marco Roth<br>Hausrat, Ringier AG</span>
+                            </h4>
                         </div>
                     </div>
-                    <div class="col-md-4 testi-img" style="background-image: url('assets/images/person.png')"></div>
                 </div>
+                <div class="col-md-4 testi-img"
+                     style="background-image: url('assets/images/fdp_portrait_bild.jpg'); background-size:cover; height: 358px; z-index: 99; "></div>
+            </div>
 
-                <div>
-                    <div class="col-md-8">
-                        <div class="quote-position">
-                            <div class="testi-content light-blue">
-                                <h3><span class="inner">Ornare pellentesque scelerisque hendrerit pellentesque nunc et suspendisse congue imperdiet pellentesque mi consectetur.</span>
-                                </h3>
-                            </div>
-                            <div class="cite cyan">
-                                <h4>
-                                    <span class="inner">Marco Roth<br>Hausrat, Ringier AG</span>
-                                </h4>
-                            </div>
+            <div>
+                <div class="col-md-8">
+                    <div class="quote-position">
+                        <div class="testi-content light-blue">
+                            <h3><span class="inner">Ornare pellentesque scelerisque hendrerit pellentesque nunc et suspendisse congue imperdiet pellentesque mi consectetur.</span>
+                            </h3>
+                        </div>
+                        <div class="cite cyan">
+                            <h4>
+                                <span class="inner">Marco Roth<br>Hausrat, Ringier AG</span>
+                            </h4>
                         </div>
                     </div>
-                    <div class="col-md-4 testi-img" style="background-image: url('assets/images/person.png')"></div>
                 </div>
+                <div class="col-md-4 testi-img"
+                     style="background-image: url('assets/images/fdp_portrait_bild.jpg'); background-size:cover; height: 358px; z-index: 99; "></div>
             </div>
         </div>
     </div>
@@ -515,42 +516,48 @@
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
-                    </tbody> <tbody>
+                    </tbody>
+                    <tbody>
                     <tr>
                         <td>Agenda</td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
-                    </tbody> <tbody>
+                    </tbody>
+                    <tbody>
                     <tr>
                         <td>Google Maps</td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
-                    </tbody> <tbody>
+                    </tbody>
+                    <tbody>
                     <tr>
                         <td>Smartvote-Integration</td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
-                    </tbody> <tbody>
+                    </tbody>
+                    <tbody>
                     <tr>
                         <td>Testimonial-Builder</td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
-                    </tbody> <tbody>
+                    </tbody>
+                    <tbody>
                     <tr>
                         <td>Polit-Toolbox</td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
-                    </tbody> <tbody>
+                    </tbody>
+                    <tbody>
                     <tr>
                         <td>Export und Import von Kontakten</td>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
@@ -742,7 +749,9 @@
                     </tbody>
                     <tbody>
                     <tr>
-                        <td colspan="3" class="preise-block-table-cell-full-width">Spenden-Widget (ohne Zahlungsschnittstelle)</td>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Spenden-Widget (ohne
+                            Zahlungsschnittstelle)
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
@@ -900,7 +909,9 @@
                     </tbody>
                     <tbody>
                     <tr>
-                        <td colspan="3" class="preise-block-table-cell-full-width">Partei- und Kampagnen-Hub mit Single Log-In</td>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Partei- und Kampagnen-Hub mit Single
+                            Log-In
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
@@ -911,7 +922,8 @@
                     </tbody>
                     <tbody>
                     <tr>
-                        <td colspan="3" class="preise-block-table-cell-full-width">Push- und Pull zwischen Webseiten</td>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Push- und Pull zwischen Webseiten
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
@@ -976,13 +988,13 @@
                 <label for="female">Frau</label><br>
             </div>
             <label for="fname">Vorname *</label><br>
-            <input type="text" id="fname" name="fname"  placeholder="Vorname"><br>
+            <input type="text" id="fname" name="fname" placeholder="Vorname"><br>
             <label for="lname">Nachname *</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Nachname" ><br>
+            <input type="text" id="lname" name="lname" placeholder="Nachname"><br>
             <label for="email">E-Mail *</label><br>
-            <input type="text"  name="email"  placeholder="E-Mail"><br>
+            <input type="text" name="email" placeholder="E-Mail"><br>
             <label for="message">Ihre Nachricht</label><br>
-            <textarea rows="4" id="message" name="message"  placeholder="Ihre Nachricht"></textarea><br>
+            <textarea rows="4" id="message" name="message" placeholder="Ihre Nachricht"></textarea><br>
             <input type="submit" class="content-btn" value="Senden">
         </form>
     </div>

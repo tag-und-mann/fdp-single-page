@@ -1,0 +1,60 @@
+.testimonial {
+  padding-top: 150px;
+
+  .simple-slick {
+    width: 78%;
+    border: 1px solid #b2b9c0;
+    margin: 0 auto;
+    height: 360px;
+
+    .testi-content {
+      font-family: LinotypeUniversBold, sans-serif;
+      position: relative;
+      left: -15px;
+      width: 80%;
+      -ms-transform: rotate(-3.5deg);
+      -webkit-transform: rotate(-3.5deg);
+      transform: rotate(-3.5deg);
+      -ms-transform-origin: 0%;
+      -webkit-transform-origin: 0%;
+      transform-origin: 0%;
+      margin-top: 20px;
+
+      h3 {
+        background-color: #81D0F5;
+        padding: 15px 15px 15px 45px;
+        padding-left: 45px;
+        font-size: 38px;
+        line-height: 38px;
+        color: #131413;
+        margin: 0;
+
+        .inner {
+          position: relative;
+        }
+      }
+
+      .cite {
+        position: relative;
+        left: -19px;
+        -ms-transform: rotate(-3.5deg);
+        -webkit-transform: rotate(-3.5deg);
+        transform: rotate(-3.5deg);
+        -ms-transform-origin: 0%;
+        -webkit-transform-origin: 0%;
+        transform-origin: 0%;
+        margin-bottom: 20px;
+
+        h4 {
+          color: #FFFFFF;
+          background-color: #009EE3;
+          font-size: 22px;
+          line-height: 33px;
+          display: inline-block;
+          margin: 0;
+          padding: 0 15px 5px 55px;
+        }
+      }
+    }
+  }
+}

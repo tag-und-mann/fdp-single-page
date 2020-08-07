@@ -8899,8 +8899,8 @@ a:hover {
 /***** Header Slider *****/
 /***** Input *****/
 /* line 1, ../sass/elements/_layout.scss */
-.body {
-  overflow: hidden;
+body {
+  overflow-x: hidden;
 }
 
 /* line 4, ../sass/elements/_layout.scss */
@@ -9634,8 +9634,9 @@ a:hover {
 .advantages p.subtitle {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 24px;
+  width: 60%;
 }
-/* line 15, ../sass/elements/_advantages.scss */
+/* line 16, ../sass/elements/_advantages.scss */
 .advantages img {
   width: 120px;
 }
@@ -9925,12 +9926,13 @@ footer .desk-view {
 .computer-slider p.subtitle {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 24px;
+  width: 60%;
 }
-/* line 16, ../sass/elements/_computer-slider.scss */
+/* line 17, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-page {
   padding: 60px 0 140px;
 }
-/* line 20, ../sass/elements/_computer-slider.scss */
+/* line 21, ../sass/elements/_computer-slider.scss */
 .computer-slider .home-politiker-blob {
   position: absolute;
   top: 4%;
@@ -9941,7 +9943,7 @@ footer .desk-view {
   width: 782px;
   height: 681px;
 }
-/* line 31, ../sass/elements/_computer-slider.scss */
+/* line 32, ../sass/elements/_computer-slider.scss */
 .computer-slider .home-abstimmungen-blob {
   position: absolute;
   bottom: -12%;
@@ -9952,7 +9954,7 @@ footer .desk-view {
   width: 743px;
   height: 804px;
 }
-/* line 42, ../sass/elements/_computer-slider.scss */
+/* line 43, ../sass/elements/_computer-slider.scss */
 .computer-slider .politiker-page-www-blob {
   position: absolute;
   top: 4%;
@@ -9963,36 +9965,36 @@ footer .desk-view {
   width: 811px;
   height: 654px;
 }
-/* line 52, ../sass/elements/_computer-slider.scss */
+/* line 53, ../sass/elements/_computer-slider.scss */
 .computer-slider .politiker-page-www-blob svg {
   color: blue;
 }
-/* line 59, ../sass/elements/_computer-slider.scss */
+/* line 60, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-text-r .features-and-website-top {
   width: 38%;
   margin-left: 52%;
 }
-/* line 66, ../sass/elements/_computer-slider.scss */
+/* line 67, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-text-l .features-and-website-top {
   width: 38%;
 }
-/* line 71, ../sass/elements/_computer-slider.scss */
+/* line 72, ../sass/elements/_computer-slider.scss */
 .computer-slider h2 {
   margin: 0 0 20px;
   transition: all 1s ease-in-out;
 }
-/* line 77, ../sass/elements/_computer-slider.scss */
+/* line 78, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-desc {
   margin: 0 0 30px 0;
   opacity: 0;
   transition: all 1s ease-in-out;
 }
-/* line 83, ../sass/elements/_computer-slider.scss */
+/* line 84, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block {
   margin: 60px 0;
   position: relative;
 }
-/* line 87, ../sass/elements/_computer-slider.scss */
+/* line 88, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block .features-and-website-table-items {
   position: absolute;
   bottom: -80px;
@@ -10002,17 +10004,17 @@ footer .desk-view {
   box-shadow: -1px 4px 12px -1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
-/* line 96, ../sass/elements/_computer-slider.scss */
+/* line 97, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-items-mob {
   display: none;
 }
-/* line 100, ../sass/elements/_computer-slider.scss */
+/* line 101, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item {
   border-bottom: 1px solid grey;
   opacity: 1;
   transition: all 1s ease-in-out;
 }
-/* line 105, ../sass/elements/_computer-slider.scss */
+/* line 106, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item .features-and-website-table-title {
   padding: 20px 30px 0 30px;
   box-sizing: border-box;
@@ -10023,7 +10025,7 @@ footer .desk-view {
   letter-spacing: 0;
   line-height: 26px;
 }
-/* line 115, ../sass/elements/_computer-slider.scss */
+/* line 116, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item .features-and-website-table-desc {
   margin: 0;
   padding: 10px 30px 20px 30px;
@@ -10034,38 +10036,38 @@ footer .desk-view {
   letter-spacing: 0;
   line-height: 24px;
 }
-/* line 130, ../sass/elements/_computer-slider.scss */
+/* line 131, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-text-r .features-and-website-table-items {
   left: 0;
 }
-/* line 136, ../sass/elements/_computer-slider.scss */
+/* line 137, ../sass/elements/_computer-slider.scss */
 .computer-slider .features-and-website-text-l .features-and-website-table-items {
   right: 0;
 }
-/* line 146, ../sass/elements/_computer-slider.scss */
+/* line 147, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded {
   position: relative;
   display: flex;
 }
-/* line 151, ../sass/elements/_computer-slider.scss */
+/* line 152, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-content {
   width: 100%;
   box-sizing: border-box;
 }
-/* line 157, ../sass/elements/_computer-slider.scss */
+/* line 158, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-block {
   height: 680px;
   width: 100%;
   position: relative;
 }
-/* line 162, ../sass/elements/_computer-slider.scss */
+/* line 163, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-laptop {
   width: 100%;
   height: 680px;
   z-index: 12;
   position: relative;
 }
-/* line 169, ../sass/elements/_computer-slider.scss */
+/* line 170, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
   position: absolute;
   top: 46px;
@@ -10074,22 +10076,22 @@ footer .desk-view {
   z-index: 10;
   height: 580px;
 }
-/* line 177, ../sass/elements/_computer-slider.scss */
+/* line 178, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track,
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
   height: 580px;
 }
-/* line 182, ../sass/elements/_computer-slider.scss */
+/* line 183, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev, .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
   top: 118%;
   z-index: 16;
   opacity: 0.8;
 }
-/* line 187, ../sass/elements/_computer-slider.scss */
+/* line 188, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev:hover, .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next:hover {
   opacity: 1;
 }
-/* line 192, ../sass/elements/_computer-slider.scss */
+/* line 193, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev,
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
   border-radius: 50%;
@@ -10100,22 +10102,22 @@ footer .desk-view {
   background-size: 50px 50px;
   background-position: center;
 }
-/* line 202, ../sass/elements/_computer-slider.scss */
+/* line 203, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
   background-image: url(../images/arrow_r.svg);
   right: calc(100% - 100% / 2 - 70px);
 }
-/* line 206, ../sass/elements/_computer-slider.scss */
+/* line 207, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev {
   background-image: url(../images/arrow_l.svg);
   left: calc(100% - 100% / 2 - 86px);
 }
-/* line 210, ../sass/elements/_computer-slider.scss */
+/* line 211, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev:before,
 .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next:before {
   content: '';
 }
-/* line 217, ../sass/elements/_computer-slider.scss */
+/* line 218, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded .website-embeded-frame-content {
   position: relative;
   top: 0;
@@ -10123,7 +10125,7 @@ footer .desk-view {
   width: 100%;
   z-index: 10;
 }
-/* line 227, ../sass/elements/_computer-slider.scss */
+/* line 228, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded-frame-content-pagination {
   text-align: center;
   margin-top: 40px;
@@ -10134,12 +10136,12 @@ footer .desk-view {
   letter-spacing: 0;
   line-height: 16px;
 }
-/* line 238, ../sass/elements/_computer-slider.scss */
+/* line 239, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded-frame-content-desk {
   display: block !important;
   width: 100%;
 }
-/* line 242, ../sass/elements/_computer-slider.scss */
+/* line 243, ../sass/elements/_computer-slider.scss */
 .computer-slider .website-embeded-frame-content-mob3,
 .computer-slider .website-embeded-frame-content-mob2,
 .computer-slider .website-embeded-frame-content-mob1 {
@@ -10147,84 +10149,84 @@ footer .desk-view {
   width: 100%;
 }
 @media only screen and (max-width: 1330px) {
-  /* line 251, ../sass/elements/_computer-slider.scss */
+  /* line 252, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
     right: calc(100% - 100% / 2 - 80px);
   }
-  /* line 255, ../sass/elements/_computer-slider.scss */
+  /* line 256, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website {
     padding: 50px 0 60px;
   }
-  /* line 258, ../sass/elements/_computer-slider.scss */
+  /* line 259, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website h2 {
     margin: 0 0 12px;
   }
-  /* line 261, ../sass/elements/_computer-slider.scss */
+  /* line 262, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .features-and-website-slider-block {
     margin: 40px 0 0;
   }
-  /* line 265, ../sass/elements/_computer-slider.scss */
+  /* line 266, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .features-and-website-slider {
     display: flex;
     justify-content: center;
   }
-  /* line 269, ../sass/elements/_computer-slider.scss */
+  /* line 270, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-block {
     height: 500px;
   }
-  /* line 272, ../sass/elements/_computer-slider.scss */
+  /* line 273, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-laptop {
     height: 500px;
     width: 914px;
   }
-  /* line 276, ../sass/elements/_computer-slider.scss */
+  /* line 277, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
     top: 34px;
     height: 430px;
   }
-  /* line 280, ../sass/elements/_computer-slider.scss */
+  /* line 281, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track, .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
     height: 430px;
   }
-  /* line 284, ../sass/elements/_computer-slider.scss */
+  /* line 285, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-mob1 {
     display: block !important;
   }
-  /* line 287, ../sass/elements/_computer-slider.scss */
+  /* line 288, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-desk,
   .computer-slider .website-embeded-frame-content-mob2,
   .computer-slider .website-embeded-frame-content-mob3 {
     display: none !important;
   }
-  /* line 293, ../sass/elements/_computer-slider.scss */
+  /* line 294, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-pagination {
     margin-top: 28px;
   }
-  /* line 297, ../sass/elements/_computer-slider.scss */
+  /* line 298, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website.features-and-website-text-r .features-and-website-top {
     width: 100%;
     margin-left: 0%;
   }
-  /* line 301, ../sass/elements/_computer-slider.scss */
+  /* line 302, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website.features-and-website-text-l .features-and-website-top {
     width: 100%;
   }
-  /* line 304, ../sass/elements/_computer-slider.scss */
+  /* line 305, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .features-and-website-desc {
     font-size: 22px;
     line-height: 26px;
     margin: 0 0 20px 0;
   }
-  /* line 310, ../sass/elements/_computer-slider.scss */
+  /* line 311, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website-table-items.features-and-website-table-items-desk {
     display: none;
   }
-  /* line 314, ../sass/elements/_computer-slider.scss */
+  /* line 315, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .features-and-website-slider-block .features-and-website-table-items.features-and-website-table-items-mob {
     display: block;
     margin-top: 86px;
   }
-  /* line 318, ../sass/elements/_computer-slider.scss */
+  /* line 319, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .features-and-website-slider-block .features-and-website-table-items {
     position: relative;
     bottom: unset;
@@ -10232,19 +10234,19 @@ footer .desk-view {
     width: 100%;
     z-index: 14;
   }
-  /* line 325, ../sass/elements/_computer-slider.scss */
+  /* line 326, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item .features-and-website-table-title {
     font-size: 18px;
     line-height: 22px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 331, ../sass/elements/_computer-slider.scss */
+  /* line 332, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .home-politiker-blob {
     width: 50%;
     top: 2%;
   }
-  /* line 335, ../sass/elements/_computer-slider.scss */
+  /* line 336, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .politiker-page-www-blob {
     width: 50%;
     height: auto;
@@ -10252,35 +10254,35 @@ footer .desk-view {
     left: -30%;
     z-index: -1;
   }
-  /* line 342, ../sass/elements/_computer-slider.scss */
+  /* line 343, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website.features-and-website-page {
     padding: 40px 0 40px;
   }
 }
 @media only screen and (max-width: 960px) {
-  /* line 347, ../sass/elements/_computer-slider.scss */
+  /* line 348, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-block {
     height: 300px;
   }
-  /* line 350, ../sass/elements/_computer-slider.scss */
+  /* line 351, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-laptop {
     height: 300px;
     width: 470px;
   }
-  /* line 354, ../sass/elements/_computer-slider.scss */
+  /* line 355, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
     top: 20px;
     height: 270px;
   }
-  /* line 358, ../sass/elements/_computer-slider.scss */
+  /* line 359, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track, .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
     height: 270px;
   }
-  /* line 362, ../sass/elements/_computer-slider.scss */
+  /* line 363, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-mob2 {
     display: block !important;
   }
-  /* line 365, ../sass/elements/_computer-slider.scss */
+  /* line 366, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-desk,
   .computer-slider .website-embeded-frame-content-mob1,
   .computer-slider .website-embeded-frame-content-mob3 {
@@ -10288,66 +10290,66 @@ footer .desk-view {
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 373, ../sass/elements/_computer-slider.scss */
+  /* line 374, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .home-wir-sind-blob {
     bottom: -10%;
     width: 80%;
     display: block;
   }
-  /* line 378, ../sass/elements/_computer-slider.scss */
+  /* line 379, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .politiker-page-www-blob {
     width: 60%;
     top: 5%;
     left: -30%;
     height: auto;
   }
-  /* line 384, ../sass/elements/_computer-slider.scss */
+  /* line 385, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website.features-and-website-page {
     padding: 60px 0 40px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 390, ../sass/elements/_computer-slider.scss */
+  /* line 391, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .home-abstimmungen-blob {
     width: 80%;
     bottom: -15%;
     left: -18%;
   }
-  /* line 395, ../sass/elements/_computer-slider.scss */
+  /* line 396, ../sass/elements/_computer-slider.scss */
   .computer-slider .features-and-website .home-politiker-blob {
     top: 2%;
     left: -34%;
     width: 76%;
   }
-  /* line 400, ../sass/elements/_computer-slider.scss */
+  /* line 401, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-block {
     height: 150px;
   }
-  /* line 403, ../sass/elements/_computer-slider.scss */
+  /* line 404, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-laptop {
     height: 150px;
     width: 260px;
   }
-  /* line 407, ../sass/elements/_computer-slider.scss */
+  /* line 408, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
     top: 10px;
     height: 130px;
   }
-  /* line 411, ../sass/elements/_computer-slider.scss */
+  /* line 412, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track, .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
     height: 130px;
   }
-  /* line 415, ../sass/elements/_computer-slider.scss */
+  /* line 416, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-mob3 {
     display: block !important;
   }
-  /* line 418, ../sass/elements/_computer-slider.scss */
+  /* line 419, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded-frame-content-desk,
   .computer-slider .website-embeded-frame-content-mob1,
   .computer-slider .website-embeded-frame-content-mob2 {
     display: none !important;
   }
-  /* line 424, ../sass/elements/_computer-slider.scss */
+  /* line 425, ../sass/elements/_computer-slider.scss */
   .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev, .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
     top: 136%;
   }
@@ -10388,17 +10390,18 @@ footer .desk-view {
 .preise p.subtitle {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 24px;
+  width: 60%;
 }
-/* line 35, ../sass/elements/_preise.scss */
+/* line 36, ../sass/elements/_preise.scss */
 .preise .preise-block {
-  padding: 100px 0;
+  padding: 100px 0 0;
   position: relative;
 }
-/* line 40, ../sass/elements/_preise.scss */
+/* line 41, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-intro {
   margin-bottom: 40px;
 }
-/* line 43, ../sass/elements/_preise.scss */
+/* line 44, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-intro h1 {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 60px;
@@ -10410,7 +10413,7 @@ footer .desk-view {
   opacity: 1;
   transition: all 0.5s ease-in-out;
 }
-/* line 54, ../sass/elements/_preise.scss */
+/* line 55, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-intro h2 {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 48px;
@@ -10422,7 +10425,7 @@ footer .desk-view {
   opacity: 1;
   transition: all 0.5s ease-in-out;
 }
-/* line 65, ../sass/elements/_preise.scss */
+/* line 66, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-intro p {
   margin: 0 auto;
   font-family: LinotypeUniversRegular, sans-serif;
@@ -10437,7 +10440,7 @@ footer .desk-view {
   transition: all 0.5s ease-in-out;
   transition-delay: 0.3s;
 }
-/* line 81, ../sass/elements/_preise.scss */
+/* line 82, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table {
   background-color: #fff;
   border-radius: 10px;
@@ -10449,7 +10452,7 @@ footer .desk-view {
   transition-delay: 0.5s;
   position: relative;
 }
-/* line 93, ../sass/elements/_preise.scss */
+/* line 94, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-btns {
   position: absolute;
   top: -58px;
@@ -10458,7 +10461,7 @@ footer .desk-view {
   display: flex;
   z-index: 1;
 }
-/* line 101, ../sass/elements/_preise.scss */
+/* line 102, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-btns p {
   margin: 0;
   width: 210px;
@@ -10474,28 +10477,28 @@ footer .desk-view {
   border-top-left-radius: 10px;
   cursor: pointer;
 }
-/* line 117, ../sass/elements/_preise.scss */
+/* line 118, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-btns p.preise-block-table-btn-active {
   background-color: #fff;
   color: #009EE3;
 }
-/* line 122, ../sass/elements/_preise.scss */
+/* line 123, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-btns p.preise-block-table-btn-politiker.preise-block-table-btn-active {
   box-shadow: -5px -5px 7px -1px rgba(0, 0, 0, 0.1);
 }
-/* line 125, ../sass/elements/_preise.scss */
+/* line 126, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-btns p.preise-block-table-btn-abstimmungen.preise-block-table-btn-active {
   box-shadow: 5px -5px 7px -1px rgba(0, 0, 0, 0.1);
 }
-/* line 137, ../sass/elements/_preise.scss */
+/* line 138, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-hidden {
   display: none;
 }
-/* line 141, ../sass/elements/_preise.scss */
+/* line 142, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOns-block-item-a {
   display: none;
 }
-/* line 145, ../sass/elements/_preise.scss */
+/* line 146, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-leadtext {
   font-family: LinotypeUniversRegular, sans-serif;
   font-size: 18px;
@@ -10507,17 +10510,17 @@ footer .desk-view {
   width: 90%;
   max-width: 700px;
 }
-/* line 157, ../sass/elements/_preise.scss */
+/* line 158, ../sass/elements/_preise.scss */
 .preise .preise-block table {
   width: 100%;
   margin: 60px 0 0;
 }
-/* line 161, ../sass/elements/_preise.scss */
+/* line 162, ../sass/elements/_preise.scss */
 .preise .preise-block table th {
   padding: 20px;
   box-sizing: border-box;
 }
-/* line 165, ../sass/elements/_preise.scss */
+/* line 166, ../sass/elements/_preise.scss */
 .preise .preise-block table th .plan {
   color: #fff;
   margin: 0;
@@ -10526,7 +10529,7 @@ footer .desk-view {
   line-height: 18px;
   margin-bottom: 10px;
 }
-/* line 173, ../sass/elements/_preise.scss */
+/* line 174, ../sass/elements/_preise.scss */
 .preise .preise-block table th .price {
   color: #fff;
   margin: 0;
@@ -10535,7 +10538,7 @@ footer .desk-view {
   line-height: 50px;
   margin-bottom: 10px;
 }
-/* line 181, ../sass/elements/_preise.scss */
+/* line 182, ../sass/elements/_preise.scss */
 .preise .preise-block table th .curr {
   color: #fff;
   margin: 0;
@@ -10544,43 +10547,43 @@ footer .desk-view {
   line-height: 26px;
   margin-bottom: 20px;
 }
-/* line 192, ../sass/elements/_preise.scss */
+/* line 193, ../sass/elements/_preise.scss */
 .preise .preise-block table th:nth-child(2) {
   background-color: #81D0F5;
   border-top-left-radius: 10px;
 }
-/* line 196, ../sass/elements/_preise.scss */
+/* line 197, ../sass/elements/_preise.scss */
 .preise .preise-block table th:nth-child(3) {
   background-color: #009EE3;
 }
-/* line 199, ../sass/elements/_preise.scss */
+/* line 200, ../sass/elements/_preise.scss */
 .preise .preise-block table th:nth-child(4) {
   background-color: #004E9C;
   border-top-right-radius: 10px;
 }
-/* line 204, ../sass/elements/_preise.scss */
+/* line 205, ../sass/elements/_preise.scss */
 .preise .preise-block table .preise-block-table-no {
   color: red;
   width: 24px;
   height: 24px;
 }
-/* line 209, ../sass/elements/_preise.scss */
+/* line 210, ../sass/elements/_preise.scss */
 .preise .preise-block table .preise-block-table-yes {
   color: green;
   width: 24px;
   height: 24px;
 }
-/* line 214, ../sass/elements/_preise.scss */
+/* line 215, ../sass/elements/_preise.scss */
 .preise .preise-block table .preise-block-table-grey {
   color: #999999;
   width: 24px;
   height: 24px;
 }
-/* line 220, ../sass/elements/_preise.scss */
+/* line 221, ../sass/elements/_preise.scss */
 .preise .preise-block table td, .preise .preise-block table th {
   width: 25%;
 }
-/* line 224, ../sass/elements/_preise.scss */
+/* line 225, ../sass/elements/_preise.scss */
 .preise .preise-block table td {
   text-align: center;
   padding: 18px 0 14px;
@@ -10593,7 +10596,7 @@ footer .desk-view {
   font-size: 16px;
   line-height: 18px;
 }
-/* line 236, ../sass/elements/_preise.scss */
+/* line 237, ../sass/elements/_preise.scss */
 .preise .preise-block table td:first-child {
   text-align: left;
   color: #000000;
@@ -10607,12 +10610,12 @@ footer .desk-view {
   padding-right: 10px;
   box-sizing: border-box;
 }
-/* line 249, ../sass/elements/_preise.scss */
+/* line 250, ../sass/elements/_preise.scss */
 .preise .preise-block table td:nth-child(2) {
   border-left: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 253, ../sass/elements/_preise.scss */
+/* line 254, ../sass/elements/_preise.scss */
 .preise .preise-block table td:first-child:before {
   content: "";
   background-image: linear-gradient(90deg, #fff 0%, #fff 50%, #e5e5e5 100%);
@@ -10623,17 +10626,17 @@ footer .desk-view {
   bottom: 0;
   width: 100%;
 }
-/* line 265, ../sass/elements/_preise.scss */
+/* line 266, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-sign {
   text-align: center;
   margin: 20px auto 16px;
 }
-/* line 269, ../sass/elements/_preise.scss */
+/* line 270, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-sign img {
   width: 40px;
   height: 40px;
 }
-/* line 275, ../sass/elements/_preise.scss */
+/* line 276, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOns-title {
   font-family: LinotypeUniversRegular, sans-serif;
   font-size: 24px;
@@ -10642,23 +10645,23 @@ footer .desk-view {
   line-height: 30px;
   margin: 0 0 20px;
 }
-/* line 284, ../sass/elements/_preise.scss */
+/* line 285, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOnsFurParteiien-block,
 .preise .preise-block .preise-block-table-addOns-block {
   display: flex;
   margin: 0 -6px 28px;
 }
-/* line 289, ../sass/elements/_preise.scss */
+/* line 290, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOnsFurParteiien-block.preise-block-table-addOns-block-hidden,
 .preise .preise-block .preise-block-table-addOns-block.preise-block-table-addOns-block-hidden {
   display: none;
 }
-/* line 293, ../sass/elements/_preise.scss */
+/* line 294, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOnsFurParteiien-block.preise-block-table-addOns-block-mob,
 .preise .preise-block .preise-block-table-addOns-block.preise-block-table-addOns-block-mob {
   display: none;
 }
-/* line 297, ../sass/elements/_preise.scss */
+/* line 298, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOnsFurParteiien-block-item,
 .preise .preise-block .preise-block-table-addOns-block-item {
   width: 24%;
@@ -10670,7 +10673,7 @@ footer .desk-view {
   hyphens: auto;
   word-break: break-word;
 }
-/* line 309, ../sass/elements/_preise.scss */
+/* line 310, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOns-block-item-title {
   font-family: LinotypeUniversRegular, sans-serif;
   font-size: 16px;
@@ -10680,7 +10683,7 @@ footer .desk-view {
   line-height: 22px;
   margin: 0;
 }
-/* line 318, ../sass/elements/_preise.scss */
+/* line 319, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOns-block-item-price {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 24px;
@@ -10690,11 +10693,11 @@ footer .desk-view {
   line-height: 28px;
   margin: 14px 0 7px;
 }
-/* line 327, ../sass/elements/_preise.scss */
+/* line 328, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOns-block-item-price.preise-block-table-addOns-block-item-price2 {
   margin: 8px 0 7px;
 }
-/* line 331, ../sass/elements/_preise.scss */
+/* line 332, ../sass/elements/_preise.scss */
 .preise .preise-block .preise-block-table-addOns-block-item-time {
   font-family: LinotypeUniversRegular, sans-serif;
   font-size: 16px;
@@ -10704,14 +10707,14 @@ footer .desk-view {
   line-height: 22px;
   margin: 0;
 }
-/* line 341, ../sass/elements/_preise.scss */
+/* line 342, ../sass/elements/_preise.scss */
 .preise .preise-block .price-download {
   margin: 20px 0;
   opacity: 1;
   transition: all 1s ease-in-out;
   transition-delay: 1s;
 }
-/* line 347, ../sass/elements/_preise.scss */
+/* line 348, ../sass/elements/_preise.scss */
 .preise .preise-block .price-download a {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 18px;
@@ -10720,88 +10723,88 @@ footer .desk-view {
   line-height: 30px;
   margin: 0 34px 0 0;
 }
-/* line 355, ../sass/elements/_preise.scss */
+/* line 356, ../sass/elements/_preise.scss */
 .preise .preise-block .price-download a span {
   display: flex;
   align-items: center;
 }
-/* line 360, ../sass/elements/_preise.scss */
+/* line 361, ../sass/elements/_preise.scss */
 .preise .preise-block .price-download a svg {
   width: 24px;
   height: 24px;
   margin-left: 10px;
 }
-/* line 369, ../sass/elements/_preise.scss */
+/* line 370, ../sass/elements/_preise.scss */
 .preise .preise-block-table-mob {
   display: none;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 374, ../sass/elements/_preise.scss */
+  /* line 375, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table {
     padding: 80px 5% 70px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 380, ../sass/elements/_preise.scss */
+  /* line 381, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-blob-top {
     top: -31%;
     left: -7%;
     width: 65%;
     height: auto;
   }
-  /* line 386, ../sass/elements/_preise.scss */
+  /* line 387, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-blob-bottom {
     bottom: 0%;
     right: -10%;
     width: 55%;
     height: auto;
   }
-  /* line 392, ../sass/elements/_preise.scss */
+  /* line 393, ../sass/elements/_preise.scss */
   .preise .preise-block {
     padding: 44px 0 10px;
     width: 100%;
   }
-  /* line 396, ../sass/elements/_preise.scss */
+  /* line 397, ../sass/elements/_preise.scss */
   .preise .preise-block table {
     margin: 30px 0 0;
   }
-  /* line 399, ../sass/elements/_preise.scss */
+  /* line 400, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-intro {
     width: 90%;
     margin: 0 auto 30px;
   }
-  /* line 403, ../sass/elements/_preise.scss */
+  /* line 404, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-intro h1 {
     font-size: 38px;
     line-height: 42px;
     margin: 0 0 10px;
   }
-  /* line 408, ../sass/elements/_preise.scss */
+  /* line 409, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-intro p {
     width: 100%;
   }
-  /* line 412, ../sass/elements/_preise.scss */
+  /* line 413, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table {
     border-radius: 0px;
     padding: 40px 0 30px;
   }
-  /* line 416, ../sass/elements/_preise.scss */
+  /* line 417, ../sass/elements/_preise.scss */
   .preise .preise-block-table-desk {
     display: none;
   }
-  /* line 419, ../sass/elements/_preise.scss */
+  /* line 420, ../sass/elements/_preise.scss */
   .preise .preise-block-table-mob {
     display: table;
   }
-  /* line 422, ../sass/elements/_preise.scss */
+  /* line 423, ../sass/elements/_preise.scss */
   .preise .preise-block table td {
     padding: 8px 0 4px;
   }
-  /* line 425, ../sass/elements/_preise.scss */
+  /* line 426, ../sass/elements/_preise.scss */
   .preise .preise-block table td, .preise .preise-block table th {
     width: 33.3%;
   }
-  /* line 428, ../sass/elements/_preise.scss */
+  /* line 429, ../sass/elements/_preise.scss */
   .preise .preise-block table td.preise-block-table-cell-full-width {
     width: 100%;
     text-align: center;
@@ -10809,81 +10812,81 @@ footer .desk-view {
     font-size: 14px;
     line-height: 16px;
   }
-  /* line 435, ../sass/elements/_preise.scss */
+  /* line 436, ../sass/elements/_preise.scss */
   .preise .preise-block table th:nth-child(1) {
     background-color: #1f4468;
     border-top-left-radius: 0;
   }
-  /* line 439, ../sass/elements/_preise.scss */
+  /* line 440, ../sass/elements/_preise.scss */
   .preise .preise-block table th:nth-child(2) {
     background-color: #355677;
     border-top-left-radius: 0;
   }
-  /* line 443, ../sass/elements/_preise.scss */
+  /* line 444, ../sass/elements/_preise.scss */
   .preise .preise-block table th:nth-child(3) {
     background-color: #4c6986;
     border-top-left-radius: 0;
   }
-  /* line 447, ../sass/elements/_preise.scss */
+  /* line 448, ../sass/elements/_preise.scss */
   .preise .preise-block table td:first-child {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
   }
-  /* line 451, ../sass/elements/_preise.scss */
+  /* line 452, ../sass/elements/_preise.scss */
   .preise .preise-block table td:first-child:before {
     background-image: none;
     height: 0;
   }
-  /* line 455, ../sass/elements/_preise.scss */
+  /* line 456, ../sass/elements/_preise.scss */
   .preise .preise-block table td:last-child {
     border-right: 0px solid #e5e5e5;
     padding-right: 0;
   }
-  /* line 460, ../sass/elements/_preise.scss */
+  /* line 461, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-addOns-title {
     margin: 0 auto 20px;
     width: 90%;
   }
-  /* line 465, ../sass/elements/_preise.scss */
+  /* line 466, ../sass/elements/_preise.scss */
   .preise .preise-block-table-addOnsFurParteiien-block.preise-block-table-addOns-block-desk,
   .preise .preise-block-table-addOns-block.preise-block-table-addOns-block-desk {
     display: none;
   }
-  /* line 471, ../sass/elements/_preise.scss */
+  /* line 472, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-addOnsFurParteiien-block.preise-block-table-addOns-block-mob,
   .preise .preise-block .preise-block-table-addOns-block.preise-block-table-addOns-block-mob {
     display: block;
     margin-left: 5%;
   }
-  /* line 476, ../sass/elements/_preise.scss */
+  /* line 477, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-addOnsFurParteiien-block.preise-block-table-addOns-block-mob.preise-block-table-addOns-block-hidden,
   .preise .preise-block .preise-block-table-addOns-block.preise-block-table-addOns-block-mob.preise-block-table-addOns-block-hidden {
     height: 0;
     opacity: 1;
   }
-  /* line 482, ../sass/elements/_preise.scss */
+  /* line 483, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-addOnsFurParteiien-block-item, .preise .preise-block .preise-block-table-addOns-block-item {
     border: 0px solid #999999;
   }
-  /* line 485, ../sass/elements/_preise.scss */
+  /* line 486, ../sass/elements/_preise.scss */
   .preise .preise-block-table-addOnsFurParteiien-block-mob-carousel .slick-list .slick-slide.slick-active > div,
   .preise .preise-block-table-addOns-block-mob-carousel .slick-list .slick-slide.slick-active > div {
     width: 80%;
     margin-left: 30%;
     border: 1px solid #999999;
   }
-  /* line 491, ../sass/elements/_preise.scss */
+  /* line 492, ../sass/elements/_preise.scss */
   .preise .preise-block-table-addOnsFurParteiien-block-mob-carousel .slick-list .slick-slide.slick-current > div,
   .preise .preise-block-table-addOns-block-mob-carousel .slick-list .slick-slide.slick-current > div {
     width: 120%;
     margin-left: 0%;
     border: 1px solid #999999;
   }
-  /* line 497, ../sass/elements/_preise.scss */
+  /* line 498, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-addOnsFurParteiien-block-item, .preise .preise-block .preise-block-table-addOns-block-item {
     border: 0px solid #999999;
   }
-  /* line 501, ../sass/elements/_preise.scss */
+  /* line 502, ../sass/elements/_preise.scss */
   .preise .preise-block .price-download {
     text-align: center;
     display: flex;
@@ -10892,7 +10895,7 @@ footer .desk-view {
     width: 90%;
     margin: 20px auto;
   }
-  /* line 510, ../sass/elements/_preise.scss */
+  /* line 511, ../sass/elements/_preise.scss */
   .preise .preise-block .price-download a {
     margin: 0 0 8px;
     width: 100%;
@@ -10901,7 +10904,7 @@ footer .desk-view {
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 520, ../sass/elements/_preise.scss */
+  /* line 521, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-blob-top {
     top: -23%;
     left: -7%;
@@ -10910,51 +10913,51 @@ footer .desk-view {
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 528, ../sass/elements/_preise.scss */
+  /* line 529, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-blob-top {
     top: -14%;
     left: -16%;
     width: 65%;
   }
-  /* line 533, ../sass/elements/_preise.scss */
+  /* line 534, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-btns {
     width: 100%;
   }
-  /* line 536, ../sass/elements/_preise.scss */
+  /* line 537, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-btns p {
     width: 50%;
     border-top-right-radius: 0px;
     border-top-left-radius: 10px;
   }
-  /* line 541, ../sass/elements/_preise.scss */
+  /* line 542, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-block-table-btns p.preise-block-table-btn-politiker.preise-block-table-btn-active {
     border-top-right-radius: 10px;
     border-top-left-radius: 0px;
   }
-  /* line 545, ../sass/elements/_preise.scss */
+  /* line 546, ../sass/elements/_preise.scss */
   .preise .preise-block table th .plan {
     margin-bottom: 4px;
   }
-  /* line 548, ../sass/elements/_preise.scss */
+  /* line 549, ../sass/elements/_preise.scss */
   .preise .preise-block table th .price {
     font-size: 32px;
     line-height: 38px;
     margin-bottom: 0px;
   }
-  /* line 553, ../sass/elements/_preise.scss */
+  /* line 554, ../sass/elements/_preise.scss */
   .preise .preise-block table th .curr {
     font-family: LinotypeUniversRegular, sans-serif;
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 8px;
   }
-  /* line 559, ../sass/elements/_preise.scss */
+  /* line 560, ../sass/elements/_preise.scss */
   .preise .preise-block table th {
     padding: 18px 2% 0;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 566, ../sass/elements/_preise.scss */
+  /* line 567, ../sass/elements/_preise.scss */
   .preise .preise-block .preise-blob-top {
     top: -9%;
     left: -16%;
@@ -10964,7 +10967,7 @@ footer .desk-view {
 
 /* line 1, ../sass/elements/_contact.scss */
 .contact-form {
-  margin-top: 150px;
+  margin: 150px 0;
 }
 /* line 4, ../sass/elements/_contact.scss */
 .contact-form h2 {

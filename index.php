@@ -122,15 +122,13 @@
         </h1>
     </div>
 </div>
-<div class="cheat-me-container" style="overflow: hidden; width: 100%;">
-    <div class="cheat-me-border">
-        <div class="claim light-blue">
-            <h2>
-                <span class="inner">«Erstellen Sie im<br>Handumdrehen Ihre eigene<br>Kampagnenwebseite»</span>
-                <!--<span class="wrap">
-                </span>-->
-            </h2>
-        </div>
+<div class="cheat-me-border">
+    <div class="claim light-blue">
+        <h2>
+            <span class="inner">«Erstellen Sie im<br>Handumdrehen Ihre eigene<br>Kampagnenwebseite»</span>
+            <!--<span class="wrap">
+            </span>-->
+        </h2>
     </div>
 </div>
 <section id="vorteile" class="advantages">
@@ -264,29 +262,18 @@
 
                                 <div class="website-embeded-frame-content-wrapper website-embeded-frame-content-wrapper-politiker">
 
-
                                     <div class="website-embeded-frame-content website-embeded-frame-contentß website-embeded-frame-content-desk"
                                          data-id="">
                                         <img alt="laptop" src="" style="height:"
                                              class="website-embeded-frame-content-desk">
                                         <img alt="mobile" src="" style="height:"
                                              class="website-embeded-frame-content-mob1">
-
-
                                     </div>
-
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
-
-
                 </div>
-
                 <!-- slider end-->
                 <div class="features-and-website-table-items features-and-website-table-items-mob">
 
@@ -403,7 +390,7 @@
             neusten Stand der Technik. Bereits ab 49 Franken im Monat können Sie unsere Online-Tools nutzen.</p>
         <br>
         <div class="preise-block">
-            <div class="preise-block-table visibleTextEl">
+            <div class="preise-block-table">
                 <table cellspacing="0" cellpadding="0" class="preise-block-table-desk">
                     <thead>
                     <th></th>
@@ -448,7 +435,6 @@
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
                         <td>Schulung 1h</td>
                         <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
@@ -457,85 +443,205 @@
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>CMS BERTA DIGITAL</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Social Media Cockpit</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Social Media Sharing</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
                     <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>Kontaktmanagement (CRM)</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Spenden-Widget (ohne Zahlungsschnittstelle)</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
                     <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>Newsletter</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>Komitee-Builder</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>Vorstossdatenbank Bund</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>Blog/Aktuell</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody> <tbody>
+                    <tr>
+                        <td>Agenda</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody> <tbody>
+                    <tr>
+                        <td>Google Maps</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody> <tbody>
+                    <tr>
+                        <td>Smartvote-Integration</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody> <tbody>
+                    <tr>
+                        <td>Testimonial-Builder</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody> <tbody>
+                    <tr>
+                        <td>Polit-Toolbox</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody> <tbody>
+                    <tr>
+                        <td>Export und Import von Kontakten</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>Hosting</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
                     <tbody>
-                    <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
-                        <td>Beratungsgespräch 1h</td>
-
-                        <td colspan="1">X</td>
-                        <td colspan="1">OK</td>
-                        <td colspan="1">OK</td>
+                        <td>SSL</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
                     </tr>
                     </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Wartung und Sicherheitsupdates</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Integrierte Statistik</td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Mehrsprachigkeit</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Design</td>
+                        <td colspan="3">Parteivorlage</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Partei- und Kampagnen-Hub mit Single Log-In</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Push- und Pull zwischen Webseiten</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Domain</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Going Public Check</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td>Support</td>
+                        <td colspan="1">E-Mail</td>
+                        <td colspan="2">E-Mail & Telefon</td>
+                    </tr>
 
                 </table>
 
@@ -576,16 +682,280 @@
 
                     <tbody>
                     <tr>
-                        <td colspan="3" class="preise-block-table-cell-full-width"></td>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Beratungsgespräch 1h</td>
                     </tr>
-                    <i data-feather='x' class='preise-block-table-no'></i>
-                    <i data-feather='check' class='preise-block-table-yes'></i>
                     <tr>
-                        <td colspan="1">
-                            <X
-                        </td>
-                        <td colspan="1">X</td>
-                        <td colspan="1">ok</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Schulung 1h</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">CMS BERTA DIGITAL</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Social Media Cockpit</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Social Media Sharing</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Kontaktmanagement (CRM)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Spenden-Widget (ohne Zahlungsschnittstelle)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Newsletter</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Komitee-Builder</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Blog/Aktuell</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Agenda</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Google Maps</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Smartvote-Integration</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Testimonial-Builder</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Formular-Generator</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Polit-Toolbox</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Export und Import von Kontakten</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Hosting</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">SSL</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Wartung und Sicherheitsupdates</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Mehrsprachigkeit</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Design</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Partei- und Kampagnen-Hub mit Single Log-In</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Push- und Pull zwischen Webseiten</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Doamin</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Going Public Check</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Support</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">E-Mail</td>
+                        <td colspan="2">E-Mail & Telefon</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width">Installationsgebühr</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">0 CHF</td>
+                        <td colspan="1">0 CHF</td>
+                        <td colspan="1">0 CHF</td>
                     </tr>
                     </tbody>
                 </table>
@@ -598,6 +968,21 @@
         <h2>Kontakt</h2>
         <p class="subtitle">Stellen Sie uns Ihre schwierigste Frage.</p>
         <br>
+        <form action="/action_page.php">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Herr</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Frau</label><br>
+            <label for="fname">Vorname *</label><br>
+            <input type="text" id="fname" name="fname"  placeholder="Vorname"><br>
+            <label for="lname">Nachname *</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Nachname" ><br>
+            <label for="email">E-Mail *</label><br>
+            <input type="text"  name="email"  placeholder="E-Mail"><br>
+            <label for="message">Ihre Nachricht</label><br>
+            <input type="textarea" id="fname" name="message"  placeholder="Ihre Nachricht"><br>
+            <input type="submit" value="Senden">
+        </form>
     </div>
 </section>
 <footer>

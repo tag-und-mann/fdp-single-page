@@ -10546,16 +10546,16 @@ footer .desk-view {
 }
 /* line 192, ../sass/elements/_preise.scss */
 .preise .preise-block table th:nth-child(2) {
-  background-color: #1f4468;
+  background-color: #81D0F5;
   border-top-left-radius: 10px;
 }
 /* line 196, ../sass/elements/_preise.scss */
 .preise .preise-block table th:nth-child(3) {
-  background-color: #355677;
+  background-color: #009EE3;
 }
 /* line 199, ../sass/elements/_preise.scss */
 .preise .preise-block table th:nth-child(4) {
-  background-color: #4c6986;
+  background-color: #004E9C;
   border-top-right-radius: 10px;
 }
 /* line 204, ../sass/elements/_preise.scss */

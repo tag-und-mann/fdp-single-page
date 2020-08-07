@@ -16,7 +16,6 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-
 </head>
 <body>
 <nav id="w4" class="navbar navbar-default">
@@ -123,13 +122,15 @@
         </h1>
     </div>
 </div>
-<div class="cheat-me-border">
-    <div class="claim light-blue">
-        <h2>
-            <span class="inner">«Erstellen Sie im<br>Handumdrehen Ihre eigene<br>Kampagnenwebseite»</span>
-            <!--<span class="wrap">
-            </span>-->
-        </h2>
+<div class="cheat-me-container" style="overflow: hidden; width: 100%;">
+    <div class="cheat-me-border">
+        <div class="claim light-blue">
+            <h2>
+                <span class="inner">«Erstellen Sie im<br>Handumdrehen Ihre eigene<br>Kampagnenwebseite»</span>
+                <!--<span class="wrap">
+                </span>-->
+            </h2>
+        </div>
     </div>
 </div>
 <section id="vorteile" class="advantages">
@@ -391,7 +392,6 @@
                     </div>
                     <div class="col-md-4 testi-img" style="background-image: url('assets/images/person.png')"></div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -442,21 +442,135 @@
                     <i data-feather='x' class='preise-block-table-no'></i>
                     <tr>
                         <td>Beratungsgespräch 1h</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Schulung 1h</td>
+                        <td colspan="1"><img src="assets/images/x-icon.svg" alt="no"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                        <td colspan="1"><img src="assets/images/yes-icon.svg" alt="yes"></td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
 
                         <td colspan="1">X</td>
                         <td colspan="1">OK</td>
                         <td colspan="1">OK</td>
                     </tr>
                     </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+
                 </table>
 
 
                 <table cellspacing="0" cellpadding="0" class="preise-block-table-mob">
                     <thead>
                     <th>
+                        <p class="plan">Basic</p>
+                        <p class="price">49,00</p>
+                        <p class="curr">CHF</p>
+                        <p class="content-btn">
+                            <a href="/" target="_blank" class="orange_bg_btn">
+                                Jetzt testen
+                            </a>
+                        </p>
+                    </th>
+                    <th>
                         <p class="plan">Pro</p>
                         <p class="price">99,00</p>
                         <p class="curr">CHF</p>
+                        <p class="content-btn">
+                            <a href="/" target="_blank" class="orange_bg_btn">
+                                Jetzt testen
+                            </a>
+                        </p>
+                    </th>
+                    <th>
+                        <p class="plan">Hub</p>
+                        <p class="price">199,00</p>
+                        <p class="curr">CHF</p>
+                        <p class="content-btn">
+                            <a href="/" target="_blank" class="orange_bg_btn">
+                                Jetzt testen
+                            </a>
+                        </p>
                     </th>
                     </thead>
 
@@ -467,7 +581,9 @@
                     <i data-feather='x' class='preise-block-table-no'></i>
                     <i data-feather='check' class='preise-block-table-yes'></i>
                     <tr>
-                        <td colspan="1"><X</td>
+                        <td colspan="1">
+                            <X
+                        </td>
                         <td colspan="1">X</td>
                         <td colspan="1">ok</td>
                     </tr>

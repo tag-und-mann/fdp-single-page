@@ -256,20 +256,23 @@
                         <div class="website-embeded-content">
 
                             <div class="website-embeded-frame-block">
-                                <img alt="laptop" class="website-embeded-frame-laptop website-embeded-frame-laptopA" src="assets/images/we_laptop.png">
+                                <img alt="laptop" class="website-embeded-frame-laptop website-embeded-frame-laptopA"
+                                     src="assets/images/we_laptop.png">
 
                                 <p class="website-embeded-frame-content-pagination"><span>1</span> /</p>
 
                                 <div class="website-embeded-frame-content-wrapper website-embeded-frame-content-wrapper-politiker">
 
 
-                                        <div class="website-embeded-frame-content website-embeded-frame-contentß website-embeded-frame-content-desk" data-id="">
-                                            <img alt="laptop"  src=""  style="height:" class="website-embeded-frame-content-desk">
-                                            <img alt="mobile" src=""  style="height:" class="website-embeded-frame-content-mob1">
+                                    <div class="website-embeded-frame-content website-embeded-frame-contentß website-embeded-frame-content-desk"
+                                         data-id="">
+                                        <img alt="laptop" src="" style="height:"
+                                             class="website-embeded-frame-content-desk">
+                                        <img alt="mobile" src="" style="height:"
+                                             class="website-embeded-frame-content-mob1">
 
 
-
-                                        </div>
+                                    </div>
 
 
                                 </div>
@@ -399,6 +402,79 @@
         <p class="subtitle">Durch die Nutzung von BERTA DIGITAL haben Sie Ihre Kosten im Griff und bleiben immer auf dem
             neusten Stand der Technik. Bereits ab 49 Franken im Monat können Sie unsere Online-Tools nutzen.</p>
         <br>
+        <div class="preise-block">
+            <div class="preise-block-table visibleTextEl">
+                <table cellspacing="0" cellpadding="0" class="preise-block-table-desk">
+                    <thead>
+                    <th></th>
+                    <th>
+                        <p class="plan">Basic</p>
+                        <p class="price">49,00</p>
+                        <p class="curr">CHF</p>
+                        <p class="content-btn">
+                            <a href="/" target="_blank" class="orange_bg_btn">
+                                Jetzt testen
+                            </a>
+                        </p>
+                    </th>
+                    <th>
+                        <p class="plan">Pro</p>
+                        <p class="price">99,00</p>
+                        <p class="curr">CHF</p>
+                        <p class="content-btn">
+                            <a href="/" target="_blank" class="orange_bg_btn">
+                                Jetzt testen
+                            </a>
+                        </p>
+                    </th>
+                    <th>
+                        <p class="plan">Hub</p>
+                        <p class="price">199,00</p>
+                        <p class="curr">CHF</p>
+                        <p class="content-btn">
+                            <a href="/" target="_blank" class="orange_bg_btn">
+                                Jetzt testen
+                            </a>
+                        </p>
+                    </th>
+                    </thead>
+                    <tbody>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <tr>
+                        <td>Beratungsgespräch 1h</td>
+
+                        <td colspan="1">X</td>
+                        <td colspan="1">OK</td>
+                        <td colspan="1">OK</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+                <table cellspacing="0" cellpadding="0" class="preise-block-table-mob">
+                    <thead>
+                    <th>
+                        <p class="plan">Pro</p>
+                        <p class="price">99,00</p>
+                        <p class="curr">CHF</p>
+                    </th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td colspan="3" class="preise-block-table-cell-full-width"></td>
+                    </tr>
+                    <i data-feather='x' class='preise-block-table-no'></i>
+                    <i data-feather='check' class='preise-block-table-yes'></i>
+                    <tr>
+                        <td colspan="1"><X</td>
+                        <td colspan="1">X</td>
+                        <td colspan="1">ok</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </section>
 <section id="kontakt" class="contact-form">

@@ -10979,3 +10979,42 @@ footer .desk-view {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 24px;
 }
+/* line 16, ../sass/elements/_contact.scss */
+.contact-form form {
+  width: 70%;
+  background-color: #009EE3;
+  padding: 5% 10% 12%;
+}
+@media screen and (max-width: 475px) {
+  /* line 16, ../sass/elements/_contact.scss */
+  .contact-form form {
+    width: 100%;
+  }
+}
+/* line 26, ../sass/elements/_contact.scss */
+.contact-form form .radio-btns-container input {
+  width: auto;
+}
+/* line 30, ../sass/elements/_contact.scss */
+.contact-form form .radio-btns-container label {
+  margin-right: 10px;
+}
+/* line 35, ../sass/elements/_contact.scss */
+.contact-form form label {
+  font-family: LinotypeUniversBold, sans-serif;
+  color: #fff;
+  margin-top: 15px;
+}
+/* line 41, ../sass/elements/_contact.scss */
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+}
+/* line 48, ../sass/elements/_contact.scss */
+.contact-form form .content-btn {
+  border: 0;
+  float: right;
+  margin-top: 20px;
+}

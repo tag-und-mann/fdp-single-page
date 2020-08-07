@@ -968,11 +968,13 @@
         <h2>Kontakt</h2>
         <p class="subtitle">Stellen Sie uns Ihre schwierigste Frage.</p>
         <br>
-        <form action="/action_page.php">
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Herr</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Frau</label><br>
+        <form action="/">
+            <div class="radio-btns-container">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Herr</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Frau</label><br>
+            </div>
             <label for="fname">Vorname *</label><br>
             <input type="text" id="fname" name="fname"  placeholder="Vorname"><br>
             <label for="lname">Nachname *</label><br>
@@ -980,8 +982,8 @@
             <label for="email">E-Mail *</label><br>
             <input type="text"  name="email"  placeholder="E-Mail"><br>
             <label for="message">Ihre Nachricht</label><br>
-            <input type="textarea" id="fname" name="message"  placeholder="Ihre Nachricht"><br>
-            <input type="submit" value="Senden">
+            <textarea rows="4" id="message" name="message"  placeholder="Ihre Nachricht"></textarea><br>
+            <input type="submit" class="content-btn" value="Senden">
         </form>
     </div>
 </section>

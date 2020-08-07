@@ -155,7 +155,7 @@
   /*width: 305px;*/
   width: 105px;
   /*height: 200px;*/
-  height: 115px;
+  height: 140px;
   float: left;
   position: relative;
   perspective: 500px;
@@ -231,10 +231,12 @@
 .view .s7,
 .view .s8 {
   transform: translateX(60px);
+  background-size: cover;
 }
 
 .view .s1 {
-  background-position: 0px 0px;
+  background-position: -8px 1px;
+  background-size: cover;
 }
 .view .s2 {
   background-position: -60px 0px;
@@ -247,6 +249,7 @@
 }
 .view .s5 {
   background-position: -240px 0px;
+  background-repeat: no-repeat;
 }
 .view .s6 {
   background-position: -300px 0px;

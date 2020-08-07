@@ -1,0 +1,429 @@
+.computer-slider {
+  margin-top: 150px;
+
+  h2 {
+    color: $fdp-blue;
+    margin-top: 0;
+  }
+
+  p {
+    &.subtitle {
+      font-family: LinotypeUniversBold, sans-serif;
+      font-size: 24px;
+    }
+  }
+
+  .features-and-website-page{
+    padding: 60px 0 140px;
+  }
+
+  .home-politiker-blob{
+    position: absolute;
+    top: 4%;
+    left: -16%;
+    z-index: -1;
+    animation: homePolitikerBlob 30s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    width: 782px;
+    height: 681px;
+  }
+
+  .home-abstimmungen-blob{
+    position: absolute;
+    bottom: -12%;
+    left: -6%;
+    animation: homePolitikerBlob 30s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    z-index: -1;
+    width: 743px;
+    height: 804px;
+  }
+
+  .politiker-page-www-blob{
+    position: absolute;
+    top: 4%;
+    left: -6%;
+    animation: homePolitikerBlob 30s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    z-index: 0;
+    width: 811px;
+    height: 654px;
+
+    svg{
+      color: blue;
+    }
+  }
+
+
+  .features-and-website-text-r{
+    .features-and-website-top {
+      width: 38%;
+      margin-left: 52%;
+    }
+  }
+
+  .features-and-website-text-l{
+    .features-and-website-top {
+      width: 38%;
+    }
+  }
+
+  h2{
+    margin: 0 0 20px;
+    //opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .features-and-website-desc{
+    margin: 0 0 30px 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .features-and-website-slider-block{
+    margin: 60px 0;
+    position: relative;
+
+    .features-and-website-table-items{
+      position: absolute;
+      bottom: -80px;
+      width: 29%;
+      z-index: 14;
+      background-color: $white;
+      box-shadow: -1px 4px 12px -1px rgba(0,0,0,0.2);
+      border-radius: 10px;
+
+      .features-and-website-table-items-mob{
+        display: none;
+      }
+
+      .features-and-website-table-item{
+        border-bottom: 1px solid grey;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+
+        .features-and-website-table-title{
+          padding: 20px 30px 0 30px;
+          box-sizing: border-box;
+          margin: 0;
+          font-family: LinotypeUniversHeavy, sans-serif;
+          font-size: 20px;
+          color: $black;
+          letter-spacing: 0;
+          line-height: 26px;
+        }
+        .features-and-website-table-desc{
+          margin: 0;
+          padding: 10px 30px 20px 30px;
+          box-sizing: border-box;
+          font-family: LinotypeUniversRegular, sans-serif;
+          font-size: 18px;
+          color: $black;
+          letter-spacing: 0;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+  .features-and-website-text-r{
+    .features-and-website-table-items {
+      left: 0;
+    }
+  }
+
+  .features-and-website-text-l{
+    .features-and-website-table-items {
+      right: 0;
+    }
+  }
+
+
+
+
+
+
+  .website-embeded{
+    position: relative;
+    display: flex;
+
+
+    .website-embeded-content{
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+
+    .website-embeded-frame-block{
+      height: 680px;
+      width: 100%;
+      position: relative;
+    }
+    .website-embeded-frame-laptop{
+      width: 100%;
+      height: 680px;
+      z-index: 12;
+      position: relative;
+    }
+
+    .website-embeded-frame-content-wrapper{
+      position: absolute;
+      top: 46px;
+      left: 13%;
+      width: 75%;
+      z-index: 10;
+      height: 580px;
+
+      .slick-track,
+      .slick-list{
+        height: 580px;
+      }
+
+      .slick-prev, .slick-next {
+        top: 118%;
+        z-index: 16;
+        opacity: 0.8;
+
+        &:hover{
+          opacity: 1;
+        }
+      }
+
+      .slick-prev,
+      .slick-next {
+        border-radius: 50%;
+        background-color: $black;
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        background-position: center;
+      }
+      .slick-next {
+        background-image: url(../images/arrow_r.svg);
+        right: calc(100% - 100% / 2 - 70px);
+      }
+      .slick-prev {
+        background-image: url(../images/arrow_l.svg);
+        left: calc(100% - 100% / 2 - 86px);
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        content: '';
+      }
+    }
+
+
+    .website-embeded-frame-content{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+  }
+
+  .website-embeded-frame-content-pagination{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: LinotypeUniversRegular, sans-serif;
+    font-size: 14px;
+    color: $black;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+
+  .website-embeded-frame-content-desk{
+    display: block!important;
+    width: 100%;
+  }
+  .website-embeded-frame-content-mob3,
+  .website-embeded-frame-content-mob2,
+  .website-embeded-frame-content-mob1{
+    display: none!important;
+    width: 100%;
+  }
+  @media only screen and (max-width: 1330px) {
+
+
+    .website-embeded .website-embeded-frame-content-wrapper .slick-next {
+      right: calc(100% - 100% / 2 - 80px);
+    }
+
+    .features-and-website {
+      padding: 50px 0 60px;
+    }
+    .features-and-website h2 {
+      margin: 0 0 12px;
+    }
+    .features-and-website .features-and-website-slider-block {
+      margin: 40px 0 0;
+    }
+
+    .features-and-website .features-and-website-slider {
+      display: flex;
+      justify-content: center;
+    }
+    .website-embeded .website-embeded-frame-block {
+      height: 500px;
+    }
+    .website-embeded .website-embeded-frame-laptop {
+      height: 500px;
+      width: 914px;
+    }
+    .website-embeded .website-embeded-frame-content-wrapper {
+      top: 34px;
+      height: 430px;
+    }
+    .website-embeded .website-embeded-frame-content-wrapper .slick-track, .website-embeded .website-embeded-frame-content-wrapper .slick-list {
+      height: 430px;
+    }
+
+    .website-embeded-frame-content-mob1{
+      display: block!important;
+    }
+    .website-embeded-frame-content-desk,
+    .website-embeded-frame-content-mob2,
+    .website-embeded-frame-content-mob3{
+      display: none!important;
+    }
+
+    .website-embeded-frame-content-pagination {
+      margin-top: 28px;
+    }
+
+    .features-and-website.features-and-website-text-r .features-and-website-top {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .features-and-website.features-and-website-text-l .features-and-website-top {
+      width: 100%;
+    }
+    .features-and-website .features-and-website-desc{
+      font-size: 22px;
+      line-height: 26px;
+      margin: 0 0 20px 0;
+    }
+
+    .features-and-website-table-items.features-and-website-table-items-desk{
+      display: none;
+    }
+
+    .features-and-website .features-and-website-slider-block .features-and-website-table-items.features-and-website-table-items-mob{
+      display: block;
+      margin-top: 86px;
+    }
+    .features-and-website .features-and-website-slider-block .features-and-website-table-items {
+      position: relative;
+      bottom: unset;
+      left: unset;
+      width: 100%;
+      z-index: 14;
+    }
+    .features-and-website .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item .features-and-website-table-title {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .features-and-website .home-politiker-blob {
+      width: 50%;
+      top: 2%;
+    }
+    .features-and-website .politiker-page-www-blob{
+      width: 50%;
+      height: auto;
+      top: 0%;
+      left: -30%;
+      z-index: -1;
+    }
+    .features-and-website.features-and-website-page {
+      padding: 40px 0 40px;
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .website-embeded .website-embeded-frame-block {
+      height: 300px;
+    }
+    .website-embeded .website-embeded-frame-laptop {
+      height: 300px;
+      width: 470px;
+    }
+    .website-embeded .website-embeded-frame-content-wrapper {
+      top: 20px;
+      height: 270px;
+    }
+    .website-embeded .website-embeded-frame-content-wrapper .slick-track, .website-embeded .website-embeded-frame-content-wrapper .slick-list {
+      height: 270px;
+    }
+
+    .website-embeded-frame-content-mob2{
+      display: block!important;
+    }
+    .website-embeded-frame-content-desk,
+    .website-embeded-frame-content-mob1,
+    .website-embeded-frame-content-mob3{
+      display: none!important;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .features-and-website .home-wir-sind-blob {
+      bottom: -10%;
+      width: 80%;
+      display: block;
+    }
+    .features-and-website .politiker-page-www-blob{
+      width: 60%;
+      top: 5%;
+      left: -30%;
+      height: auto;
+    }
+    .features-and-website.features-and-website-page {
+      padding: 60px 0 40px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .features-and-website .home-abstimmungen-blob {
+      width: 80%;
+      bottom: -15%;
+      left: -18%;
+    }
+    .features-and-website .home-politiker-blob {
+      top: 2%;
+      left: -34%;
+      width: 76%;
+    }
+    .website-embeded .website-embeded-frame-block {
+      height: 150px;
+    }
+    .website-embeded .website-embeded-frame-laptop {
+      height: 150px;
+      width: 260px;
+    }
+    .website-embeded .website-embeded-frame-content-wrapper {
+      top: 10px;
+      height: 130px;
+    }
+    .website-embeded .website-embeded-frame-content-wrapper .slick-track, .website-embeded .website-embeded-frame-content-wrapper .slick-list {
+      height: 130px;
+    }
+
+    .website-embeded-frame-content-mob3{
+      display: block!important;
+    }
+    .website-embeded-frame-content-desk,
+    .website-embeded-frame-content-mob1,
+    .website-embeded-frame-content-mob2{
+      display: none!important;
+    }
+
+    .website-embeded .website-embeded-frame-content-wrapper .slick-prev, .website-embeded .website-embeded-frame-content-wrapper .slick-next {
+      top: 136%;
+    }
+
+  }
+}

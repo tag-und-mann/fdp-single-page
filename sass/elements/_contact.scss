@@ -1,15 +1,18 @@
 .contact-form {
-  padding: 150px 0;
+  padding: 120px 0;
 
   h2 {
     color: $fdp-blue;
     margin-top: 0;
+    line-height: 56px;
+    font-size: 48px;
   }
 
   p {
     &.subtitle {
       font-family: LinotypeUniversBold, sans-serif;
       font-size: 24px;
+      line-height: 30px;
     }
   }
 
@@ -17,10 +20,8 @@
     width: 70%;
     background-color: $fdp-blue;
     padding: 5% 10% 12%;
+    box-sizing: border-box;
 
-    @media screen and (max-width: 475px) {
-     width: 100%;
-    }
 
     .radio-btns-container {
       input {
@@ -50,5 +51,18 @@
       float: right;
       margin-top: 20px;
     }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-form h2 {
+    line-height: 32px;
+    font-size: 34px;
+  }
+
+  .contact-form form {
+    width: 100%;
+    background-color: #009EE3;
+    padding: 5% 10% 16%;
   }
 }

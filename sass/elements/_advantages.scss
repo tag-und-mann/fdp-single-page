@@ -4,6 +4,8 @@
   h2 {
     color: $fdp-blue;
     margin-top: 0;
+    line-height: 56px;
+    font-size: 48px;
   }
 
   p {
@@ -11,10 +13,24 @@
       font-family: LinotypeUniversBold, sans-serif;
       font-size: 24px;
       width: 60%;
+      line-height: 36px;
     }
   }
 
   img {
     width: 120px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .advantages {
+    padding-top: 100px;
+  }
+  .advantages h2 {
+    line-height: 32px;
+    font-size: 34px;
+  }
+  .advantages p.subtitle {
+    width: 100%;
   }
 }

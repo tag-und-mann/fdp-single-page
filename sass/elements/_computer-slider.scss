@@ -1,58 +1,31 @@
 .computer-slider {
   padding-top: 150px;
 
-  h2 {
-    color: $fdp-blue;
-    margin-top: 0;
-  }
+  .computer-slider-title-block{
+    h2 {
+      color: $fdp-blue;
+      margin-top: 0;
+      line-height: 56px;
+      font-size: 48px;
+    }
 
-  p {
-    &.subtitle {
-      font-family: LinotypeUniversBold, sans-serif;
-      font-size: 24px;
-      width: 60%;
+    p {
+      &.subtitle {
+        font-family: LinotypeUniversBold, sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        width: 60%;
+      }
+    }
+
+    a{
+      margin-top: 20px;
     }
   }
+
 
   .features-and-website-page{
     padding: 60px 0 140px;
-  }
-
-  .home-politiker-blob{
-    position: absolute;
-    top: 4%;
-    left: -16%;
-    z-index: -1;
-    animation: homePolitikerBlob 30s ease-in-out infinite;
-    transform-origin: 50% 50%;
-    width: 782px;
-    height: 681px;
-  }
-
-  .home-abstimmungen-blob{
-    position: absolute;
-    bottom: -12%;
-    left: -6%;
-    animation: homePolitikerBlob 30s ease-in-out infinite;
-    transform-origin: 50% 50%;
-    z-index: -1;
-    width: 743px;
-    height: 804px;
-  }
-
-  .politiker-page-www-blob{
-    position: absolute;
-    top: 4%;
-    left: -6%;
-    animation: homePolitikerBlob 30s ease-in-out infinite;
-    transform-origin: 50% 50%;
-    z-index: 0;
-    width: 811px;
-    height: 654px;
-
-    svg{
-      color: blue;
-    }
   }
 
 
@@ -71,7 +44,6 @@
 
   h2{
     margin: 0 0 20px;
-    //opacity: 0;
     transition: all 1s ease-in-out;
   }
 
@@ -84,6 +56,8 @@
   .features-and-website-slider-block{
     margin: 60px 0;
     position: relative;
+    padding: 0 90px;
+    box-sizing: border-box;
 
     .features-and-website-table-items{
       position: absolute;
@@ -91,15 +65,15 @@
       width: 29%;
       z-index: 14;
       background-color: $white;
-      box-shadow: -1px 4px 12px -1px rgba(0,0,0,0.2);
-      border-radius: 10px;
+      box-shadow: -1px 1px 10px -1px rgba(0,0,0,0.1);
+      border-radius: 2px;
 
       .features-and-website-table-items-mob{
         display: none;
       }
 
       .features-and-website-table-item{
-        border-bottom: 1px solid grey;
+        border-bottom: 1px solid #E0E0E0;
         opacity: 1;
         transition: all 1s ease-in-out;
 
@@ -122,6 +96,10 @@
           color: $black;
           letter-spacing: 0;
           line-height: 24px;
+        }
+
+        &:last-child{
+          border-bottom: none;
         }
       }
     }
@@ -156,32 +134,36 @@
 
 
     .website-embeded-frame-block{
-      height: 680px;
+      height: 580px;
       width: 100%;
       position: relative;
     }
     .website-embeded-frame-laptop{
       width: 100%;
-      height: 680px;
+      height: 580px;
       z-index: 12;
       position: relative;
     }
 
     .website-embeded-frame-content-wrapper{
       position: absolute;
-      top: 46px;
+      top: 38px;
       left: 13%;
       width: 75%;
       z-index: 10;
-      height: 580px;
+      height: 480px;
 
       .slick-track,
       .slick-list{
-        height: 580px;
+        height: 480px;
+      }
+
+      .slick-dots {
+        bottom: -132px;
       }
 
       .slick-prev, .slick-next {
-        top: 118%;
+        top: 58%;
         z-index: 16;
         opacity: 0.8;
 
@@ -193,7 +175,7 @@
       .slick-prev,
       .slick-next {
         border-radius: 50%;
-        background-color: $black;
+        background-color: transparent;
         width: 50px;
         height: 50px;
         background-repeat: no-repeat;
@@ -201,17 +183,28 @@
         background-position: center;
       }
       .slick-next {
-        background-image: url(../images/arrow_r.svg);
-        right: calc(100% - 100% / 2 - 70px);
+        background-image: url(../assets/images/arrow_r.svg);
+        right: -190px;
       }
       .slick-prev {
-        background-image: url(../images/arrow_l.svg);
-        left: calc(100% - 100% / 2 - 86px);
+        background-image: url(../assets/images/arrow_l.svg);
+        left: -200px;
       }
       .slick-prev:before,
       .slick-next:before {
         content: '';
       }
+    }
+    .slick-dots li {
+      margin: 0;
+    }
+
+    .slick-dots li button:before {
+      font-size: 13px;
+    }
+
+    .slick-dots {
+      bottom: -54px;
     }
 
 
@@ -246,185 +239,189 @@
     display: none!important;
     width: 100%;
   }
-  @media only screen and (max-width: 1330px) {
+}
 
+@media only screen and (max-width: 1330px) {
 
-    .website-embeded .website-embeded-frame-content-wrapper .slick-next {
-      right: calc(100% - 100% / 2 - 80px);
-    }
-
-    .features-and-website {
-      padding: 50px 0 60px;
-    }
-    .features-and-website h2 {
-      margin: 0 0 12px;
-    }
-    .features-and-website .features-and-website-slider-block {
-      margin: 40px 0 0;
-    }
-
-    .features-and-website .features-and-website-slider {
-      display: flex;
-      justify-content: center;
-    }
-    .website-embeded .website-embeded-frame-block {
-      height: 500px;
-    }
-    .website-embeded .website-embeded-frame-laptop {
-      height: 500px;
-      width: 914px;
-    }
-    .website-embeded .website-embeded-frame-content-wrapper {
-      top: 34px;
-      height: 430px;
-    }
-    .website-embeded .website-embeded-frame-content-wrapper .slick-track, .website-embeded .website-embeded-frame-content-wrapper .slick-list {
-      height: 430px;
-    }
-
-    .website-embeded-frame-content-mob1{
-      display: block!important;
-    }
-    .website-embeded-frame-content-desk,
-    .website-embeded-frame-content-mob2,
-    .website-embeded-frame-content-mob3{
-      display: none!important;
-    }
-
-    .website-embeded-frame-content-pagination {
-      margin-top: 28px;
-    }
-
-    .features-and-website.features-and-website-text-r .features-and-website-top {
-      width: 100%;
-      margin-left: 0%;
-    }
-    .features-and-website.features-and-website-text-l .features-and-website-top {
-      width: 100%;
-    }
-    .features-and-website .features-and-website-desc{
-      font-size: 22px;
-      line-height: 26px;
-      margin: 0 0 20px 0;
-    }
-
-    .features-and-website-table-items.features-and-website-table-items-desk{
-      display: none;
-    }
-
-    .features-and-website .features-and-website-slider-block .features-and-website-table-items.features-and-website-table-items-mob{
-      display: block;
-      margin-top: 86px;
-    }
-    .features-and-website .features-and-website-slider-block .features-and-website-table-items {
-      position: relative;
-      bottom: unset;
-      left: unset;
-      width: 100%;
-      z-index: 14;
-    }
-    .features-and-website .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item .features-and-website-table-title {
-      font-size: 18px;
-      line-height: 22px;
-    }
+  .computer-slider {
+    padding: 50px 0 60px;
   }
-  @media only screen and (max-width: 1024px) {
-    .features-and-website .home-politiker-blob {
-      width: 50%;
-      top: 2%;
-    }
-    .features-and-website .politiker-page-www-blob{
-      width: 50%;
-      height: auto;
-      top: 0%;
-      left: -30%;
-      z-index: -1;
-    }
-    .features-and-website.features-and-website-page {
-      padding: 40px 0 40px;
-    }
+  .computer-slider h2 {
+    margin: 0 0 12px;
   }
-  @media only screen and (max-width: 960px) {
-    .website-embeded .website-embeded-frame-block {
-      height: 300px;
-    }
-    .website-embeded .website-embeded-frame-laptop {
-      height: 300px;
-      width: 470px;
-    }
-    .website-embeded .website-embeded-frame-content-wrapper {
-      top: 20px;
-      height: 270px;
-    }
-    .website-embeded .website-embeded-frame-content-wrapper .slick-track, .website-embeded .website-embeded-frame-content-wrapper .slick-list {
-      height: 270px;
-    }
-
-    .website-embeded-frame-content-mob2{
-      display: block!important;
-    }
-    .website-embeded-frame-content-desk,
-    .website-embeded-frame-content-mob1,
-    .website-embeded-frame-content-mob3{
-      display: none!important;
-    }
+  .computer-slider .features-and-website-slider-block {
+    margin: 40px 0 0;
+    padding: 0;
   }
 
-  @media only screen and (max-width: 768px) {
-    .features-and-website .home-wir-sind-blob {
-      bottom: -10%;
-      width: 80%;
-      display: block;
-    }
-    .features-and-website .politiker-page-www-blob{
-      width: 60%;
-      top: 5%;
-      left: -30%;
-      height: auto;
-    }
-    .features-and-website.features-and-website-page {
-      padding: 60px 0 40px;
-    }
+  .computer-slider .features-and-website-slider {
+    display: flex;
+    justify-content: center;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-block {
+    height: 500px;
+  }
+  .computer-slider  .website-embeded .website-embeded-frame-laptop {
+    height: 500px;
+    width: 914px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
+    top: 34px;
+    height: 430px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track,
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
+    height: 430px;
   }
 
-  @media only screen and (max-width: 500px) {
-    .features-and-website .home-abstimmungen-blob {
-      width: 80%;
-      bottom: -15%;
-      left: -18%;
-    }
-    .features-and-website .home-politiker-blob {
-      top: 2%;
-      left: -34%;
-      width: 76%;
-    }
-    .website-embeded .website-embeded-frame-block {
-      height: 150px;
-    }
-    .website-embeded .website-embeded-frame-laptop {
-      height: 150px;
-      width: 260px;
-    }
-    .website-embeded .website-embeded-frame-content-wrapper {
-      top: 10px;
-      height: 130px;
-    }
-    .website-embeded .website-embeded-frame-content-wrapper .slick-track, .website-embeded .website-embeded-frame-content-wrapper .slick-list {
-      height: 130px;
-    }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
+    right: -16%;
+  }
 
-    .website-embeded-frame-content-mob3{
-      display: block!important;
-    }
-    .website-embeded-frame-content-desk,
-    .website-embeded-frame-content-mob1,
-    .website-embeded-frame-content-mob2{
-      display: none!important;
-    }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev {
+    left: -16%;
+  }
 
-    .website-embeded .website-embeded-frame-content-wrapper .slick-prev, .website-embeded .website-embeded-frame-content-wrapper .slick-next {
-      top: 136%;
-    }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-dots {
+    bottom: -90px;
 
   }
+
+  .computer-slider .website-embeded-frame-content-mob1{
+    display: block!important;
+  }
+  .computer-slider .website-embeded-frame-content-desk,
+  .computer-slider .website-embeded-frame-content-mob2,
+  .computer-slider .website-embeded-frame-content-mob3{
+    display: none!important;
+  }
+
+  .computer-slider .website-embeded-frame-content-pagination {
+    margin-top: 28px;
+  }
+
+  .computer-slider.features-and-website-text-r .features-and-website-top {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .computer-slider.features-and-website-text-l .features-and-website-top {
+    width: 100%;
+  }
+  .computer-slider .features-and-website-desc{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 0 20px 0;
+  }
+
+  .features-and-website-table-items.features-and-website-table-items-desk{
+    display: none;
+  }
+
+  .computer-slider .features-and-website-slider-block .features-and-website-table-items.features-and-website-table-items-mob{
+    display: block;
+    margin-top: 86px;
+  }
+  .computer-slider .features-and-website-slider-block .features-and-website-table-items {
+    position: relative;
+    bottom: unset;
+    left: unset;
+    width: 100%;
+    z-index: 14;
+  }
+  .computer-slider .features-and-website-slider-block .features-and-website-table-items .features-and-website-table-item .features-and-website-table-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .computer-slider .computer-slider-title-block p.subtitle {
+    width: 100%;
+  }
+  .computer-slider.features-and-website-page {
+    padding: 40px 0 40px;
+  }
+  .computer-slider .computer-slider-title-block h2 {
+    line-height: 32px;
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .computer-slider .website-embeded .website-embeded-frame-block {
+    height: 300px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-laptop {
+    height: 300px;
+    width: 470px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
+    top: 20px;
+    height: 270px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track,
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
+    height: 270px;
+  }
+
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-dots {
+    bottom: -64px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
+    right: -30%;
+  }
+
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev {
+    left: -30%;
+  }
+
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-prev,
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-next {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+  }
+
+  .computer-slider .website-embeded-frame-content-mob2{
+    display: block!important;
+  }
+  .computer-slider .website-embeded-frame-content-desk,
+  .computer-slider .website-embeded-frame-content-mob1,
+  .computer-slider .website-embeded-frame-content-mob3{
+    display: none!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .computer-slider.features-and-website-page {
+    padding: 60px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .computer-slider .website-embeded .website-embeded-frame-block {
+    height: 150px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-laptop {
+    height: 150px;
+    width: 260px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper {
+    top: 10px;
+    height: 130px;
+  }
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-track,
+  .computer-slider .website-embeded .website-embeded-frame-content-wrapper .slick-list {
+    height: 130px;
+  }
+
+  .computer-slider .website-embeded-frame-content-mob3{
+    display: block!important;
+  }
+  .computer-slider .website-embeded-frame-content-desk,
+  .computer-slider .website-embeded-frame-content-mob1,
+  .computer-slider .website-embeded-frame-content-mob2{
+    display: none!important;
+  }
+
+
+
 }

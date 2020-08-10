@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="😀Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Startseite" transform="translate(-1258.000000, -2842.000000)" stroke-width="1.5">
+            <g id="Group-4" transform="translate(1284.500000, 2867.500000) scale(-1, 1) translate(-1284.500000, -2867.500000) translate(1259.000000, 2842.000000)">
+                <polyline id="Stroke-1" stroke="#DBDBDB" stroke-linecap="round" points="30.0752 36.8848 19.5712 26.3808 30.0752 15.8768"></polyline>
+                <path d="M50.75,25.75 C50.75,39.557 39.557,50.75 25.75,50.75 C11.943,50.75 0.75,39.557 0.75,25.75 C0.75,11.943 11.943,0.75 25.75,0.75 C39.557,0.75 50.75,11.943 50.75,25.75 Z" id="Stroke-2" stroke="#E0E0E0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

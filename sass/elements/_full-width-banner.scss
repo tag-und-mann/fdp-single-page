@@ -6,17 +6,43 @@
   padding-bottom: 100px;
   margin-top: 150px;
 
+  .full-width-banner-content{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
   h3 {
-    font-family: LinotypeUniversRegular !important;
-    font-size: 42px !important;
+    font-family: LinotypeUniversBold !important;
+    font-size: 60px !important;
     color: #131413;
-    line-height: 42px !important;
+    line-height: 70px !important;
   }
 
   p {
-    &.subtitle {
-      font-family: LinotypeUniversBold, sans-serif;
-      font-size: 24px;
-    }
+    font-family: LinotypeUniversRegular, sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .full-width-banner {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .full-width-banner {
+    padding: 46px 0 56px;
+  }
+  .full-width-banner h3 {
+    font-size: 38px!important;
+    line-height: 42px!important;
+  }
+  .full-width-banner p {
+    font-size: 24px;
+    line-height: 30px;
   }
 }

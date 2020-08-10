@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 15</title>
+    <g id="😀Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Startseite" transform="translate(-370.000000, -8050.000000)" stroke="#009FDA" stroke-width="1.5">
+            <g id="Group-15" transform="translate(371.000000, 8051.000000)">
+                <line x1="0.5" y1="9.87035293" x2="0.5" y2="15.8703529" id="Line-4"></line>
+                <g id="Group-14" transform="translate(0.500000, 0.000000)">
+                    <g id="Group-11" transform="translate(0.000000, 9.870353)">
+                        <line x1="15" y1="2.84217094e-13" x2="15" y2="6" id="Line-4"></line>
+                        <line x1="0" y1="6" x2="15" y2="6" id="Line"></line>
+                    </g>
+                    <line x1="7.5" y1="0.5" x2="7.5" y2="9" id="Line-5"></line>
+                    <line x1="7.5" y1="9.87035293" x2="11" y2="6.5" id="Line-6" stroke-linejoin="round"></line>
+                    <line x1="3.5" y1="9.87035293" x2="7" y2="6.5" id="Line-6" stroke-linejoin="round" transform="translate(5.500000, 8.000000) scale(-1, 1) translate(-5.500000, -8.000000) "></line>
+                </g>
+                <g id="Group-14" transform="translate(0.500000, 0.000000)">
+                    <g id="Group-11" transform="translate(0.000000, 9.870353)">
+                        <line x1="15" y1="2.84217094e-13" x2="15" y2="6" id="Line-4"></line>
+                        <line x1="0" y1="6" x2="15" y2="6" id="Line"></line>
+                    </g>
+                    <line x1="7.5" y1="0.5" x2="7.5" y2="9" id="Line-5"></line>
+                    <line x1="7.5" y1="9.87035293" x2="11" y2="6.5" id="Line-6" stroke-linejoin="round"></line>
+                    <line x1="3.5" y1="9.87035293" x2="7" y2="6.5" id="Line-6" stroke-linejoin="round" transform="translate(5.500000, 8.000000) scale(-1, 1) translate(-5.500000, -8.000000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

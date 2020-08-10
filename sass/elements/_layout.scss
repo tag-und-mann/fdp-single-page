@@ -23,16 +23,33 @@ body {
     max-width: 1120px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        max-width: 94%;
+    }
+}
+
+.computer-slider-btn,
 .banner-btn {
-    max-width: 180px;
-    margin: 0 auto;
+    display: inline-block;
     font-family: LinotypeUniversHeavy, sans-serif;
     color: #FFFFFF;
     background-color: #009EE3;
     font-size: 24px;
-    line-height: 29px;
-    padding: 10px;
+    padding: 10px 16px 6px;
     text-align: center;
+    text-decoration: none;
+
+    &:hover{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.computer-slider-btn{
+    font-size: 17px;
+    padding: 18px 26px 12px;
 }
 
 .content-btn {
@@ -43,8 +60,12 @@ body {
     background-color: $white;
     font-size: 24px;
     //line-height: 29px;
-    padding: 10px;
+    padding: 10px 10px 6px 10px;
     text-align: center;
+
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 //navigation

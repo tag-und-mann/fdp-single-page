@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
     <title>+</title>
-    <desc>Created with Sketch.</desc>
     <g id="😀Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Preise" transform="translate(-700.000000, -1771.000000)" fill="#FF775A">
-            <g id="Group-4" transform="translate(142.000000, 412.000000)">
-                <polygon id="+" points="573.037594 1399 573.037594 1383.69043 558 1383.69043 558 1374.30957 573.037594 1374.30957 573.037594 1359 582.962406 1359 582.962406 1374.30957 598 1374.30957 598 1383.69043 582.962406 1383.69043 582.962406 1399"></polygon>
-            </g>
+        <g id="Startseite" transform="translate(-689.000000, -7593.000000)" fill="#009FDA">
+            <polygon id="+" points="704.037594 7633 704.037594 7617.69043 689 7617.69043 689 7608.30957 704.037594 7608.30957 704.037594 7593 713.962406 7593 713.962406 7608.30957 729 7608.30957 729 7617.69043 713.962406 7617.69043 713.962406 7633"></polygon>
         </g>
     </g>
 </svg>

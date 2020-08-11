@@ -9470,7 +9470,7 @@ header {
 .header-navigation .social-media-nav-desk a .circle, .header-navigation .nav-container .social-media-nav-mob a .circle, .nav-container .header-navigation .social-media-nav-mob a .circle {
   display: inline-block;
   border-radius: 50%;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   margin-right: 8px;
   position: relative;
   width: 39px;
@@ -9486,26 +9486,22 @@ header {
   transition: all 0.3s ease-in-out;
 }
 /* line 139, ../sass/elements/_navigation.scss */
-.header-navigation .social-media-nav-desk a:hover .circle, .header-navigation .nav-container .social-media-nav-mob a:hover .circle, .nav-container .header-navigation .social-media-nav-mob a:hover .circle {
-  border: 2px solid #009FDA;
-}
-/* line 143, ../sass/elements/_navigation.scss */
 .header-navigation .social-media-nav-desk a:hover .fi, .header-navigation .nav-container .social-media-nav-mob a:hover .fi, .nav-container .header-navigation .social-media-nav-mob a:hover .fi {
   color: #009FDA;
 }
-/* line 150, ../sass/elements/_navigation.scss */
+/* line 146, ../sass/elements/_navigation.scss */
 .header-navigation ul {
   list-style: none;
   display: flex;
   position: relative;
   margin: 0;
 }
-/* line 156, ../sass/elements/_navigation.scss */
+/* line 152, ../sass/elements/_navigation.scss */
 .header-navigation ul li {
   margin: 0 10px 0 10px;
   position: relative;
 }
-/* line 160, ../sass/elements/_navigation.scss */
+/* line 156, ../sass/elements/_navigation.scss */
 .header-navigation ul li a {
   font-family: LinotypeUniversBold, sans-serif;
   font-size: 20px;
@@ -9516,144 +9512,151 @@ header {
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 170, ../sass/elements/_navigation.scss */
+/* line 166, ../sass/elements/_navigation.scss */
 .header-navigation ul li a.active {
   color: #009FDA;
 }
-/* line 175, ../sass/elements/_navigation.scss */
+/* line 171, ../sass/elements/_navigation.scss */
 .header-navigation ul li a:hover {
   color: #009FDA;
   text-decoration: none;
 }
-/* line 183, ../sass/elements/_navigation.scss */
+/* line 179, ../sass/elements/_navigation.scss */
 .header-navigation ul li:last-child {
   margin: 0 0 0 25px;
 }
 
-/* line 191, ../sass/elements/_navigation.scss */
+/* line 185, ../sass/elements/_navigation.scss */
+header {
+  position: relative;
+}
+
+/* line 190, ../sass/elements/_navigation.scss */
 .header-navigation-burger {
   display: none;
   width: 24px;
   height: 24px;
   cursor: pointer;
+  margin-top: -35px;
 }
 
 /* line 198, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay {
-  width: 100%;
-  height: 100%;
-  background-color: #009EE3;
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: -100vh;
   left: 0;
-  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: block;
   z-index: 20;
 }
-/* line 208, ../sass/elements/_navigation.scss */
-.main-header-navigation-mob-overlay > div {
+/* line 209, ../sass/elements/_navigation.scss */
+.main-header-navigation-mob-overlay > div > div {
   position: absolute;
   top: 8%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 326px;
+  left: 0;
+  width: 100%;
 }
-/* line 220, ../sass/elements/_navigation.scss */
+/* line 217, ../sass/elements/_navigation.scss */
+.main-header-navigation-mob-overlay .social-media-nav-desk, .main-header-navigation-mob-overlay .nav-container .social-media-nav-mob, .nav-container .main-header-navigation-mob-overlay .social-media-nav-mob {
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 221, ../sass/elements/_navigation.scss */
+.main-header-navigation-mob-overlay .social-media-nav-desk a, .main-header-navigation-mob-overlay .nav-container .social-media-nav-mob a, .nav-container .main-header-navigation-mob-overlay .social-media-nav-mob a {
+  font-size: 0;
+}
+/* line 224, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay .social-media-nav-desk a .circle, .main-header-navigation-mob-overlay .nav-container .social-media-nav-mob a .circle, .nav-container .main-header-navigation-mob-overlay .social-media-nav-mob a .circle {
   display: inline-block;
   border-radius: 50%;
-  border: 2px solid #000000;
+  border: 1px solid #009EE3;
   margin-right: 8px;
   position: relative;
   width: 39px;
   height: 39px;
   transition: all 0.3s ease-in-out;
 }
-/* line 231, ../sass/elements/_navigation.scss */
+/* line 235, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay .social-media-nav-desk a .fi, .main-header-navigation-mob-overlay .nav-container .social-media-nav-mob a .fi, .nav-container .main-header-navigation-mob-overlay .social-media-nav-mob a .fi {
   position: absolute;
   top: 5px;
   right: 6px;
-  color: #000000;
+  color: #009EE3;
   transition: all 0.3s ease-in-out;
 }
-/* line 241, ../sass/elements/_navigation.scss */
-.main-header-navigation-mob-overlay .social-media-nav-desk a:hover .circle, .main-header-navigation-mob-overlay .nav-container .social-media-nav-mob a:hover .circle, .nav-container .main-header-navigation-mob-overlay .social-media-nav-mob a:hover .circle {
-  border: 2px solid #81D0F5;
-}
-/* line 245, ../sass/elements/_navigation.scss */
-.main-header-navigation-mob-overlay .social-media-nav-desk a:hover .fi, .main-header-navigation-mob-overlay .nav-container .social-media-nav-mob a:hover .fi, .nav-container .main-header-navigation-mob-overlay .social-media-nav-mob a:hover .fi {
-  color: #81D0F5;
-}
-/* line 252, ../sass/elements/_navigation.scss */
+/* line 246, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay ul {
   list-style: none;
   padding-left: 0;
 }
-/* line 256, ../sass/elements/_navigation.scss */
+/* line 250, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay ul li {
-  line-height: 70px;
-  text-align: left;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  padding: 14px 0 4px;
 }
-/* line 260, ../sass/elements/_navigation.scss */
+/* line 255, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay ul li a {
-  color: #FFFFFF;
+  color: #000000;
   font-family: LinotypeUniversBold, sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   letter-spacing: 0;
   text-align: center;
-  line-height: 42px;
+  line-height: 24px;
   text-decoration: none;
+  text-transform: uppercase;
 }
-/* line 269, ../sass/elements/_navigation.scss */
+/* line 265, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay ul li a:hover {
   text-decoration: none;
 }
-/* line 273, ../sass/elements/_navigation.scss */
+/* line 269, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay ul li a.active {
-  color: #81D0F5;
+  color: #009EE3;
 }
-/* line 280, ../sass/elements/_navigation.scss */
+/* line 276, ../sass/elements/_navigation.scss */
 .main-header-navigation-mob-overlay .main-header-navigation-mob-overlay-close-btn {
   color: #FFFFFF;
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 32px;
+  right: 4%;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {
-  /* line 292, ../sass/elements/_navigation.scss */
+  /* line 288, ../sass/elements/_navigation.scss */
   .header-navigation-burger {
     display: block;
   }
 
-  /* line 295, ../sass/elements/_navigation.scss */
+  /* line 291, ../sass/elements/_navigation.scss */
   .header-navigation .header-navigation-r > div,
   .header-navigation ul {
     display: none;
   }
 
-  /* line 299, ../sass/elements/_navigation.scss */
+  /* line 295, ../sass/elements/_navigation.scss */
   .header-navigation-fixed .header-navigation {
     margin-top: 0px;
   }
 
-  /* line 302, ../sass/elements/_navigation.scss */
+  /* line 298, ../sass/elements/_navigation.scss */
   .header-navigation .header-navigation-logo {
     font-size: 26px;
     line-height: 26px;
     padding-top: 0;
   }
-  /* line 307, ../sass/elements/_navigation.scss */
+  /* line 303, ../sass/elements/_navigation.scss */
   .header-navigation .header-navigation-logo img {
-    width: 150px;
+    width: 230px;
     height: auto;
   }
 
-  /* line 312, ../sass/elements/_navigation.scss */
+  /* line 308, ../sass/elements/_navigation.scss */
   .header-navigation {
     padding: 22px 0;
   }

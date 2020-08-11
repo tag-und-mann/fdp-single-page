@@ -1,83 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="close.svg"
-   width="14.1"
-   height="14"
-   viewBox="0 0 14.1 14"
-   version="1.1"
-   id="svg23">
-  <sodipodi:namedview
-     inkscape:current-layer="svg23"
-     inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:cy="0.39177345"
-     inkscape:cx="-1.9545798"
-     inkscape:zoom="25.535714"
-     showgrid="false"
-     id="namedview20"
-     inkscape:window-height="1012"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
-     pagecolor="#ffffff" />
-  <metadata
-     id="metadata27">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>icons-new/menu/2px</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
-  <title
-     id="title2">icons-new/menu/2px</title>
-  <desc
-     id="desc4">Created with Sketch.</desc>
-  <defs
-     id="defs7">
-    <path
-       d="m 19,12 c 0.552285,0 1,0.447715 1,1 0,0.552285 -0.447715,1 -1,1 v 0 H 1 C 0.44771525,14 0,13.552285 0,13 0,12.447715 0.44771525,12 1,12 v 0 z M 1,6 h 18 c 0.552285,0 1,0.4477152 1,1 0,0.5128358 -0.38604,0.9355072 -0.883379,0.9932723 L 19,8 H 1 C 0.44771525,8 0,7.5522847 0,7 0,6.4871642 0.38604019,6.0644928 0.88337888,6.0067277 L 1,6 H 19 Z M 1,0 h 18 c 0.552285,0 1,0.44771525 1,1 0,0.5128358 -0.38604,0.9355072 -0.883379,0.9932723 L 19,2 H 1 C 0.44771525,2 0,1.5522847 0,1 0,0.48716416 0.38604019,0.06449284 0.88337888,0.00672773 L 1,0 h 18 z"
-       id="path-1" />
-  </defs>
-  <g
-     style="fill:#ffffff"
-     transform="translate(0.03670851,0.04632184)"
-     id="g924">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect884"
-       width="18.880739"
-       height="2.1033559"
-       x="0.44975564"
-       y="-1.0329719"
-       ry="1.0516779"
-       transform="matrix(0.71218229,0.70199458,-0.68371587,0.72974832,0,0)" />
-    <rect
-       transform="matrix(-0.71218229,0.70199458,0.68371587,0.72974832,0,0)"
-       ry="1.0516779"
-       y="8.8412609"
-       x="-9.784215"
-       height="2.1033559"
-       width="18.880739"
-       id="rect884-7"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-opacity:1;paint-order:fill markers stroke" />
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>close</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="close" fill="#000000" fill-rule="nonzero">
+            <rect id="rect884" transform="translate(8.067491, 8.002787) rotate(43.831735) translate(-8.067491, -8.002787) " x="-1.37287866" y="6.95110884" width="18.880739" height="2.1033559"></rect>
+            <rect id="rect884-7" transform="translate(8.045548, 8.024300) scale(-1, 1) rotate(43.831735) translate(-8.045548, -8.024300) " x="-1.39482104" y="6.97262172" width="18.880739" height="2.1033559"></rect>
+        </g>
+    </g>
 </svg>

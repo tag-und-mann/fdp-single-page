@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg23"
-   version="1.1"
-   viewBox="0 0 20 14"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="burger.svg"
+   width="20px"
    height="14px"
-   width="20px">
+   viewBox="0 0 20 14"
+   version="1.1"
+   id="svg23">
+  <sodipodi:namedview
+     inkscape:current-layer="svg23"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="7.1953112"
+     inkscape:cx="13.101461"
+     inkscape:zoom="18.056477"
+     showgrid="false"
+     id="namedview20"
+     inkscape:window-height="1012"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
   <metadata
      id="metadata27">
     <rdf:RDF>
@@ -31,60 +55,60 @@
   <defs
      id="defs7">
     <path
-       id="path-1"
-       d="M19,12 C19.5522847,12 20,12.4477153 20,13 C20,13.5522847 19.5522847,14 19,14 L19,14 L1,14 C0.44771525,14 0,13.5522847 0,13 C0,12.4477153 0.44771525,12 1,12 L1,12 Z M1,6 L19,6 C19.5522847,6 20,6.44771525 20,7 C20,7.51283584 19.6139598,7.93550716 19.1166211,7.99327227 L19,8 L1,8 C0.44771525,8 0,7.55228475 0,7 C0,6.48716416 0.38604019,6.06449284 0.883378875,6.00672773 L1,6 L19,6 Z M1,0 L19,0 C19.5522847,0 20,0.44771525 20,1 C20,1.51283584 19.6139598,1.93550716 19.1166211,1.99327227 L19,2 L1,2 C0.44771525,2 0,1.55228475 0,1 C0,0.487164161 0.38604019,0.0644928393 0.883378875,0.00672773133 L1,0 L19,0 Z" />
+       d="M19,12 C19.5522847,12 20,12.4477153 20,13 C20,13.5522847 19.5522847,14 19,14 L19,14 L1,14 C0.44771525,14 0,13.5522847 0,13 C0,12.4477153 0.44771525,12 1,12 L1,12 Z M1,6 L19,6 C19.5522847,6 20,6.44771525 20,7 C20,7.51283584 19.6139598,7.93550716 19.1166211,7.99327227 L19,8 L1,8 C0.44771525,8 0,7.55228475 0,7 C0,6.48716416 0.38604019,6.06449284 0.883378875,6.00672773 L1,6 L19,6 Z M1,0 L19,0 C19.5522847,0 20,0.44771525 20,1 C20,1.51283584 19.6139598,1.93550716 19.1166211,1.99327227 L19,2 L1,2 C0.44771525,2 0,1.55228475 0,1 C0,0.487164161 0.38604019,0.0644928393 0.883378875,0.00672773133 L1,0 L19,0 Z"
+       id="path-1" />
   </defs>
   <g
-     style="fill:#009ee3;fill-opacity:1"
-     fill-rule="evenodd"
-     fill="none"
-     stroke-width="1"
+     id="😀Layouts"
      stroke="none"
-     id="😀Layouts">
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:#000000;fill-opacity:1">
     <g
-       style="fill:#009ee3;fill-opacity:1"
+       id="Startseite"
        transform="translate(-333.000000, -24.000000)"
-       id="Startseite">
+       style="fill:#000000;fill-opacity:1">
       <g
-         style="fill:#009ee3;fill-opacity:1"
-         id="header">
+         id="header"
+         style="fill:#000000;fill-opacity:1">
         <g
-           style="fill:#009ee3;fill-opacity:1"
-           id="Headerbild">
+           id="Headerbild"
+           style="fill:#000000;fill-opacity:1">
           <g
-             style="fill:#009ee3;fill-opacity:1"
+             id="icons-new/menu/2px"
              transform="translate(331.000000, 19.000000)"
-             id="icons-new/menu/2px">
+             style="fill:#000000;fill-opacity:1">
             <g
-               style="fill:#009ee3;fill-opacity:1"
+               id="icons-new/menu"
                transform="translate(2.000000, 5.000000)"
-               id="icons-new/menu">
+               style="fill:#000000;fill-opacity:1">
               <mask
-                 fill="white"
-                 id="mask-2">
+                 id="mask-2"
+                 fill="white">
                 <use
-                   id="use9"
-                   xlink:href="#path-1" />
+                   xlink:href="#path-1"
+                   id="use9" />
               </mask>
               <use
-                 style="fill:#009ee3;fill-opacity:1"
-                 xlink:href="#path-1"
-                 fill-rule="nonzero"
+                 id="Combined-Shape"
                  fill="#000000"
-                 id="Combined-Shape" />
+                 fill-rule="nonzero"
+                 xlink:href="#path-1"
+                 style="fill:#000000;fill-opacity:1" />
               <g
-                 style="fill:#009ee3;fill-opacity:1"
-                 fill="#FF775A"
+                 id="Color-/-Brand-/-Highlight"
                  mask="url(#mask-2)"
-                 id="Color-/-Brand-/-Highlight">
+                 fill="#FF775A"
+                 style="fill:#000000;fill-opacity:1">
                 <g
-                   style="fill:#009ee3;fill-opacity:1"
+                   transform="translate(-2.000000, -5.000000)"
                    id="-------------------------COLOR"
-                   transform="translate(-2.000000, -5.000000)">
+                   style="fill:#000000;fill-opacity:1">
                   <polygon
-                     style="fill:#009ee3;fill-opacity:1"
+                     points="0 0 24 0 24 24 0 24"
                      id="polygon13"
-                     points="0 0 24 0 24 24 0 24" />
+                     style="fill:#000000;fill-opacity:1" />
                 </g>
               </g>
             </g>

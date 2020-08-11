@@ -21,130 +21,88 @@
 </head>
 <body>
 
-<div class="full-container main-header-navigation " style="opacity: 1;">
-    <div class="main-container header-navigation">
-        <a class="header-navigation-logo" href="/">
-            <img class="header-logo" src="assets/images/logo-fdp.svg" alt="logo">
-        </a>
-
-        <div class="header-navigation-r">
-
-            <div class="social-media-nav-desk">
-                <a href="https://twitter.com/FDP_Liberalen" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-twitter-black-shape"></i>
-                    </div>
-                </a>
-                <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-facebook"></i>
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/fdp_plr" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-instagram"></i>
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-linkedin"></i>
-                    </div>
-                </a>
-            </div>
-            <ul class="main-menu">
-                <li><a class="active" href="#vorteile">Vorteile</a></li>
-                <li><a class="" href="#funktionen">Funktionen</a></li>
-                <li><a class="" href="#preise">Preise</a></li>
-                <li><a class="" href="#kontakt">Kontakt</a></li>
-
-            </ul>
-
-            <img alt="burger" class="header-navigation-burger" src="assets/images/burger.svg">
-        </div>
-    </div>
-</div>
-
-<div class="header-navigation-fixed header-navigation-with-bg">
-    <div class="main-container header-navigation">
-        <a class="header-navigation-logo" href="/">
-            <img class="header-logo" src="assets/images/logo-fdp.svg" alt="logo">
-        </a>
-
-        <div class="header-navigation-r">
-
-            <div class="social-media-nav-desk">
-                <a href="https://twitter.com/FDP_Liberalen" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-twitter-black-shape"></i>
-                    </div>
-                </a>
-                <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-facebook"></i>
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/fdp_plr" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-instagram"></i>
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
-                    <div class="circle">
-                        <i class="fi flaticon-linkedin"></i>
-                    </div>
-                </a>
-            </div>
-            <ul class="main-menu">
-                <li><a class="active" href="#vorteile">Vorteile</a></li>
-                <li><a class="" href="#funktionen">Funktionen</a></li>
-                <li><a class="" href="#preise">Preise</a></li>
-                <li><a class="" href="#kontakt">Kontakt</a></li>
-            </ul>
-
-            <img alt="burger" src="assets/images/burger.svg" class="header-navigation-burger" >
-        </div>
-    </div>
-
-    <img alt="border" src="assets/images/border.png" class="header-navigation-with-bg-border" >
-</div>
-
-<div class="main-header-navigation-mob-overlay">
-    <div>
-
-        <ul class="main-menu">
-            <li><a class="active" href="#vorteile">Vorteile</a></li>
-            <li><a class="" href="#funktionen">Funktionen</a></li>
-            <li><a class="" href="#preise">Preise</a></li>
-            <li><a class="" href="#kontakt">Kontakt</a></li>
-        </ul>
-
-        <div class="social-media-nav-desk">
-            <a href="https://twitter.com/FDP_Liberalen" target="_blank">
-                <div class="circle">
-                    <i class="fi flaticon-twitter-black-shape"></i>
-                </div>
-            </a>
-            <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
-                <div class="circle">
-                    <i class="fi flaticon-facebook"></i>
-                </div>
-            </a>
-            <a href="https://www.instagram.com/fdp_plr" target="_blank">
-                <div class="circle">
-                    <i class="fi flaticon-instagram"></i>
-                </div>
-            </a>
-            <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
-                <div class="circle">
-                    <i class="fi flaticon-linkedin"></i>
-                </div>
-            </a>
-        </div>
-    </div>
-    <img src="assets/images/close.svg" class="main-header-navigation-mob-overlay-close-btn" >
-</div>
 
 <header>
+    <div class="full-container main-header-navigation " style="opacity: 1;">
+        <div class="main-container header-navigation">
+            <a class="header-navigation-logo" href="/">
+                <img class="header-logo" src="assets/images/logo-fdp.svg" alt="logo">
+            </a>
+
+            <div class="header-navigation-r">
+
+                <div class="social-media-nav-desk">
+                    <a href="https://twitter.com/FDP_Liberalen" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-twitter-black-shape"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-facebook"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/fdp_plr" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-instagram"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-linkedin"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="main-menu">
+                    <li><a class="active" href="#vorteile">Vorteile</a></li>
+                    <li><a class="" href="#funktionen">Funktionen</a></li>
+                    <li><a class="" href="#preise">Preise</a></li>
+                    <li><a class="" href="#kontakt">Kontakt</a></li>
+
+                </ul>
+
+                <img alt="burger" class="header-navigation-burger" src="assets/images/burger.svg">
+            </div>
+        </div>
+    </div>
+    <div class="main-header-navigation-mob-overlay">
+        <div>
+            <div>
+
+                <ul class="main-menu">
+                    <li><a class="active" href="#vorteile">Vorteile</a></li>
+                    <li><a class="" href="#funktionen">Funktionen</a></li>
+                    <li><a class="" href="#preise">Preise</a></li>
+                    <li><a class="" href="#kontakt">Kontakt</a></li>
+                </ul>
+
+                <div class="social-media-nav-desk">
+                    <a href="https://twitter.com/FDP_Liberalen" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-twitter-black-shape"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/fdp.dieliberalen" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-facebook"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/fdp_plr" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-instagram"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/fdp-die-liberalen-schweiz" target="_blank">
+                        <div class="circle">
+                            <i class="fi flaticon-linkedin"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <img src="assets/images/close.svg" class="main-header-navigation-mob-overlay-close-btn" >
+        </div>
+    </div>
+
     <div class="header-banner" style="background-image: url('assets/images/fdp_header.jpg')">
         <div class="header-banner-filter"></div>
         <a class="cta-btn" href="/unterstuetzen/">
@@ -1497,7 +1455,9 @@
                 let path = $(this).attr('href');
 
                 if(overlayManu.css('display') === 'block'){
-                    overlayManu.fadeOut();
+                    overlayManu.animate({
+                        top: '-100vh',
+                    });
                     $('html').removeClass('no-scroll');
                     $('body').removeClass('no-scroll');
                 }
@@ -1525,83 +1485,6 @@
         });
     });
 
-    // header nav fixed: add bg on scroll
-    $(document).ready(function($){
-    // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var headerNavUpEl = $('.header-navigation-fixed');
-        var headerNavDefaultEl = $('.main-header-navigation');
-        var navbarHeight = headerNavUpEl.outerHeight();
-        var h = '';
-
-        var paddingH = parseInt(headerNavUpEl.css('top'));
-
-        var scrollH = $(this).scrollTop();
-
-        h = 100;
-
-        $(window).resize(function(){
-
-            paddingH = parseInt(headerNavUpEl.css('top'));
-
-        });
-
-        $(window).scroll(function(event){
-
-            scrollH = $(this).scrollTop();
-
-            if(scrollH <= 0){
-                headerNavDefaultEl.css('opacity', '1');
-                headerNavUpEl.css('opacity', '0');
-                headerNavUpEl.removeClass('header-navigation-fixed-nav-up');
-            }
-
-            didScroll = true;
-        });
-
-        setInterval(function() {
-            if (didScroll) {
-                hasScrolled();
-                didScroll = false;
-            }
-        }, 10);
-
-        function hasScrolled() {
-            var st = $(this).scrollTop();
-
-            // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
-                return;
-
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-
-            // if (st > lastScrollTop && st > navbarHeight) {
-            if (st > lastScrollTop && st > navbarHeight) {
-                // Scroll Down
-                headerNavUpEl.removeClass('header-navigation-fixed-nav-up');
-                headerNavUpEl.css('opacity', '1');
-            } else {
-                // Scroll Up
-
-                if (st > navbarHeight) {
-                    headerNavDefaultEl.css('opacity', '0');
-                }
-
-
-                if (st + $(window).height() < $(document).height() && scrollH > h) {
-                    headerNavUpEl.addClass('header-navigation-fixed-nav-up');
-                }else{
-
-                }
-            }
-
-            lastScrollTop = st;
-        }
-
-    });
 
     // burger
     jQuery(document).ready(function($){
@@ -1609,16 +1492,16 @@
         let overlayManu = $('.main-header-navigation-mob-overlay');
 
         $('.header-navigation-burger').on('click', function () {
-            overlayManu.fadeIn();
-            $('html').addClass('no-scroll');
-            $('body').addClass('no-scroll');
+            overlayManu.animate({
+                top: '0',
+            });
         });
 
 
         $('.main-header-navigation-mob-overlay-close-btn').on('click', function () {
-            overlayManu.fadeOut();
-            $('html').removeClass('no-scroll');
-            $('body').removeClass('no-scroll');
+            overlayManu.animate({
+                top: '-100vh',
+            });
         });
 
     });

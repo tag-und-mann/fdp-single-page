@@ -118,7 +118,7 @@
       .circle {
         display: inline-block;
         border-radius: 50%;
-        border: 2px solid $black;
+        border: 1px solid $black;
         margin-right: 8px;
         position: relative;
         width: 39px;
@@ -135,10 +135,6 @@
       }
 
       &:hover{
-
-        .circle {
-          border: 2px solid #009FDA;
-        }
 
         .fi {
           color: #009FDA;
@@ -186,6 +182,9 @@
   }
 }
 
+header{
+  position: relative;
+}
 
 
 .header-navigation-burger{
@@ -193,34 +192,39 @@
   width: 24px;
   height: 24px;
   cursor: pointer;
+  margin-top: -35px;
 }
 
 .main-header-navigation-mob-overlay{
-  width: 100%;
-  height: 100%;
-  background-color: #009EE3;
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: -100vh;
   left: 0;
-  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: block;
   z-index: 20;
 
   > div{
-    position: absolute;
-    top: 8%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 326px;
+    > div {
+      position: absolute;
+      top: 8%;
+      left: 0;
+      width: 100%;
+    }
   }
 
   .social-media-nav-desk {
+    text-align: center;
+    margin-top: 40px;
+
     a {
+      font-size: 0;
 
       .circle {
         display: inline-block;
         border-radius: 50%;
-        border: 2px solid $black;
+        border: 1px solid #009EE3;
         margin-right: 8px;
         position: relative;
         width: 39px;
@@ -232,20 +236,10 @@
         position: absolute;
         top: 5px;
         right: 6px;
-        color: $black;
+        color: #009EE3;
         transition: all 0.3s ease-in-out;
       }
 
-      &:hover{
-
-        .circle {
-          border: 2px solid #81D0F5;
-        }
-
-        .fi {
-          color: #81D0F5;
-        }
-      }
     }
   }
 
@@ -254,24 +248,26 @@
     padding-left: 0;
 
     li {
-      line-height: 70px;
-      text-align: left;
+      text-align: center;
+      border-bottom: 1px solid $black;
+      padding: 14px 0 4px;
 
       a {
-        color: $white;
+        color: $black;
         font-family: LinotypeUniversBold, sans-serif;
-        font-size: 36px;
+        font-size: 24px;
         letter-spacing: 0;
         text-align: center;
-        line-height: 42px;
+        line-height: 24px;
         text-decoration: none;
+        text-transform: uppercase;
 
         &:hover{
           text-decoration: none;
         }
 
         &.active{
-          color: #81D0F5;
+          color: #009EE3;
         }
       }
     }
@@ -282,8 +278,8 @@
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 32px;
+    right: 4%;
     cursor: pointer;
   }
 }
@@ -305,7 +301,7 @@
     padding-top: 0;
 
     img{
-      width: 150px;
+      width: 230px;
       height: auto;
     }
   }

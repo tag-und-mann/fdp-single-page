@@ -122,6 +122,8 @@ $input-font-weight: 300;
 $radio-style: dot; // circle or dot
 $checkbox-style: check; //check or square
 
+@import "mixins/button_anim";
+
 @import "elements/layout";
 @import "elements/header";
 @import "elements/navigation";

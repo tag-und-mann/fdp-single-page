@@ -129,6 +129,24 @@ footer {
 
   input[type=submit] {
     float: right;
+    display: inline-block;
+    font-family: LinotypeUniversHeavy, sans-serif;
+    color: #FFFFFF;
+    background-color: #009EE3;
+    font-size: 24px;
+    padding: 10px 16px 6px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #009EE3;
+
+    @include linkAnimShareBtns(#009EE3, $white);
+
+    &:hover{
+      text-decoration: none;
+      color: #009EE3!important;
+      @include linkAnimHover();
+      background-color: $white!important;
+    }
   }
 
   .disclaimer {

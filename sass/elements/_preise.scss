@@ -242,8 +242,8 @@ $green: #0dc279;
         color: $black;
         margin: 0;
         font-family: LinotypeUniversBold, sans-serif;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 21px;
+        line-height: 26px;
         border-bottom: 0px solid $grey;
         border-right: 0px solid $grey;
         position: relative;
@@ -487,7 +487,7 @@ $green: #0dc279;
 
   .preise .preise-block .preise-block-table-addOns-title {
     margin: 0 auto 20px;
-    width: 90%;
+    width: 86%;
   }
 
   .preise .preise-block-table-addOnsFurParteiien-block.preise-block-table-addOns-block-desk,
@@ -528,9 +528,10 @@ $green: #0dc279;
   }
   .preise .preise-block-table-addOns-block-mob-carousel .slick-list .slick-slide.slick-current > div{
     width: 130%;
-    margin-left: -4%;
+    margin-left: 0%;
     border: 1px solid $price_icons;
-    padding: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
   .preise .preise-block .price-download {
@@ -538,7 +539,7 @@ $green: #0dc279;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
   }
 

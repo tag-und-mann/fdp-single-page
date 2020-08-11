@@ -40,10 +40,16 @@ body {
     padding: 10px 16px 6px;
     text-align: center;
     text-decoration: none;
+    border: 1px solid #009EE3;
+
+    @include linkAnimShareBtns(#009EE3, $white);
+
 
     &:hover{
-        color: #FFFFFF;
+        color: #009EE3!important;
         text-decoration: none;
+        @include linkAnimHover();
+        background-color: $white!important;
     }
 }
 
@@ -63,7 +69,7 @@ body {
     padding: 10px 10px 6px 10px;
     text-align: center;
 
-    &:hover{
+    a:hover{
         text-decoration: none;
     }
 }

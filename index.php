@@ -108,23 +108,23 @@
         <a class="cta-btn" href="/unterstuetzen/">
             <!--<div>Jetzt unterstützen</div>-->
             <img class="mob-cta-btn" alt="Jetzt kostenlos testen!"
-                 src="assets/images/claim.png">
+                 src="assets/images/claim_2.png">
             <div id="grid" class="main">
                 <div class="view">
                     <div class="slice s1"
-                         style="background-image: url('assets/images/claim.png')">
+                         style="background-image: url('assets/images/claim_2.png')">
                         <span class="overlay"></span>
                         <div class="slice s2"
-                             style="background-image: url('assets/images/claim.png')">
+                             style="background-image: url('assets/images/claim_2.png')">
                             <span class="overlay"></span>
                             <div class="slice s3"
-                                 style="background-image: url('assets/images/claim.png')">
+                                 style="background-image: url('assets/images/claim_2.png')">
                                 <span class="overlay"></span>
                                 <div class="slice s4"
-                                     style="background-image: url('assets/images/claim.png'">
+                                     style="background-image: url('assets/images/claim_2.png'">
                                     <span class="overlay"></span>
                                     <div class="slice s5"
-                                         style="background-image: url('assets/images/claim.png')">
+                                         style="background-image: url('assets/images/claim_2.png')">
                                         <span class="overlay"></span>
                                     </div>
                                 </div>

@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -9774,44 +9774,44 @@ header {
   background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
   background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
   background: -o-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -ms-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -ms-linear-gradient(right, transparent 0%, transparent 100%);
+  background: linear-gradient(right, transparent 0%, transparent 100%);
 }
 
 /* line 111, ../sass/elements/_rollut.scss */
 .view .s5 > .overlay {
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -moz-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -webkit-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -o-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -ms-linear-gradient(left, transparent 0%, transparent 100%);
+  background: linear-gradient(left, transparent 0%, transparent 100%);
 }
 
 /* line 119, ../sass/elements/_rollut.scss */
 .view .s6 > .overlay {
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -moz-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -webkit-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -o-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -ms-linear-gradient(left, transparent 0%, transparent 100%);
+  background: linear-gradient(left, transparent 0%, transparent 100%);
 }
 
 /* line 127, ../sass/elements/_rollut.scss */
 .view .s7 > .overlay {
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -moz-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -webkit-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -o-linear-gradient(left, transparent 0%, transparent 100%);
+  background: -ms-linear-gradient(left, transparent 0%, transparent 100%);
+  background: linear-gradient(left, transparent 0%, transparent 100%);
 }
 
 /* line 135, ../sass/elements/_rollut.scss */
 .view .s8 > .overlay {
-  background: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -o-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: -ms-linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+  background: -moz-linear-gradient(to right, transparent 0%, transparent 100%);
+  background: -webkit-linear-gradient(to right, transparent 0%, transparent 100%);
+  background: -o-linear-gradient(to right, transparent 0%, transparent 100%);
+  background: -ms-linear-gradient(to right, transparent 0%, transparent 100%);
+  background: linear-gradient(to right, transparent 0%, transparent 100%);
 }
 
 /* line 143, ../sass/elements/_rollut.scss */
@@ -9827,17 +9827,14 @@ header {
 
 /* line 153, ../sass/elements/_rollut.scss */
 .view {
-  /*width: 316px;*/
-  /*width: 305px;*/
   width: 105px;
-  /*height: 200px;*/
-  height: 140px;
+  height: 115px;
   float: left;
   position: relative;
   perspective: 500px;
 }
 
-/* line 164, ../sass/elements/_rollut.scss */
+/* line 161, ../sass/elements/_rollut.scss */
 .view .slice {
   width: 62px;
   height: 100%;
@@ -9847,7 +9844,7 @@ header {
   transition: transform 150ms ease-in-out;
 }
 
-/* line 173, ../sass/elements/_rollut.scss */
+/* line 170, ../sass/elements/_rollut.scss */
 .view div.view-back {
   width: 50%;
   height: 100%;
@@ -9857,7 +9854,7 @@ header {
   z-index: 0;
 }
 
-/* line 182, ../sass/elements/_rollut.scss */
+/* line 179, ../sass/elements/_rollut.scss */
 .view-back span {
   display: block;
   float: right;
@@ -9868,12 +9865,12 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 192, ../sass/elements/_rollut.scss */
+/* line 189, ../sass/elements/_rollut.scss */
 .view-back span:first-child {
   padding-top: 20px;
 }
 
-/* line 196, ../sass/elements/_rollut.scss */
+/* line 193, ../sass/elements/_rollut.scss */
 .view-back a {
   display: block;
   font-size: 18px;
@@ -9890,13 +9887,13 @@ header {
   font-weight: 700;
 }
 
-/* line 212, ../sass/elements/_rollut.scss */
+/* line 209, ../sass/elements/_rollut.scss */
 .view-back a:hover {
   color: #fff;
   border-color: #fff;
 }
 
-/* line 217, ../sass/elements/_rollut.scss */
+/* line 214, ../sass/elements/_rollut.scss */
 .view-back span[data-icon]:before {
   content: attr(data-icon);
   font-family: 'icons';
@@ -9906,7 +9903,7 @@ header {
   padding-right: 5px;
 }
 
-/* line 226, ../sass/elements/_rollut.scss */
+/* line 223, ../sass/elements/_rollut.scss */
 .view .s2,
 .view .s3,
 .view .s4,
@@ -9915,53 +9912,52 @@ header {
 .view .s7,
 .view .s8 {
   transform: translateX(60px);
-  background-size: cover;
 }
 
-/* line 237, ../sass/elements/_rollut.scss */
+/* line 233, ../sass/elements/_rollut.scss */
 .view .s1 {
-  background-position: -8px 1px;
-  background-size: cover;
+  background-position: 0px 0px;
 }
 
-/* line 241, ../sass/elements/_rollut.scss */
+/* line 236, ../sass/elements/_rollut.scss */
 .view .s2 {
   background-position: -60px 0px;
 }
 
-/* line 244, ../sass/elements/_rollut.scss */
+/* line 239, ../sass/elements/_rollut.scss */
 .view .s3 {
   background-position: -120px 0px;
 }
 
-/* line 247, ../sass/elements/_rollut.scss */
+/* line 242, ../sass/elements/_rollut.scss */
 .view .s4 {
   background-position: -180px 0px;
 }
 
-/* line 250, ../sass/elements/_rollut.scss */
+/* line 245, ../sass/elements/_rollut.scss */
 .view .s5 {
   background-position: -240px 0px;
-  background-repeat: no-repeat;
+  width: 65px;
 }
 
-/* line 254, ../sass/elements/_rollut.scss */
+/* line 249, ../sass/elements/_rollut.scss */
 .view .s6 {
   background-position: -300px 0px;
 }
 
-/* line 257, ../sass/elements/_rollut.scss */
+/* line 252, ../sass/elements/_rollut.scss */
 .view .s7 {
   background-position: -360px 0px;
 }
 
-/* line 260, ../sass/elements/_rollut.scss */
+/* line 255, ../sass/elements/_rollut.scss */
 .view .s8 {
   background-position: -420px 0px;
 }
 
-/* line 264, ../sass/elements/_rollut.scss */
+/* line 259, ../sass/elements/_rollut.scss */
 .view .overlay {
+  display: none;
   width: 60px;
   height: 100%;
   opacity: 0;
@@ -9969,17 +9965,17 @@ header {
   transition: opacity 150ms ease-in-out;
 }
 
-/* line 272, ../sass/elements/_rollut.scss */
+/* line 268, ../sass/elements/_rollut.scss */
 .view:hover .overlay {
   opacity: 1;
 }
 
-/* line 277, ../sass/elements/_rollut.scss */
+/* line 273, ../sass/elements/_rollut.scss */
 .view img {
   width: 305px;
 }
 
-/* line 282, ../sass/elements/_rollut.scss */
+/* line 278, ../sass/elements/_rollut.scss */
 .view img {
   position: absolute;
   width: 305px;
@@ -9987,12 +9983,12 @@ header {
   transition: left 0.3s ease-in-out;
 }
 
-/* line 289, ../sass/elements/_rollut.scss */
+/* line 285, ../sass/elements/_rollut.scss */
 .view:hover img {
   left: -85px;
 }
 
-/* line 293, ../sass/elements/_rollut.scss */
+/* line 289, ../sass/elements/_rollut.scss */
 .view div.view-back {
   background: #666;
 }
